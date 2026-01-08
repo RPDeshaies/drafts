@@ -71,9 +71,9 @@ The GM describes the danger, establishes the character's Position, and clarifies
 
 If the action is possible, the player chooses a Skill and rolls the die that matches its rating. If another player character lends a hand, they also make a Check, but share the same risks. Take the die that shows the highest number and interpret the result:
 
-- **On a 1**: The action fails, or the character suffers the Consequence in full.
-- **On a 2-3**: The action partially succeeds, or the character suffers a lesser Consequence.
-- **On a 4+**: The action succeeds, or the Consequence is fully avoided. The higher the result, the greater the effect.
+- **On a 1-2**: The action fails, or the character suffers the Consequence in full.
+- **On a 3-4**: The action partially succeeds, or the character suffers a lesser Consequence.
+- **On a 5+**: The action succeeds, or the Consequence is fully avoided. The higher the result, the greater the effect.
 
 After a Check, every participant reduces the current rating of the Skill they used by one step: d12 → d10 → d8 → d6 → d4. A Skill cannot step down below a d4.
 
@@ -96,23 +96,23 @@ _\> A Skill at d12 cannot step up further. A Skill at d4 cannot step down furthe
 
 Items represent the weapons, gear, and other equipment a character carries. Each Item uses a die rating (d4-d12) which represents the Item's quality, durability, or quantity. A character can carry as many Items as makes sense in the fiction.
 
-Every time a character uses an Item or when an Item is stressed, they must roll a die that matches the Item's rating and interpret the result:
+Every time a character uses an Item or when an Item suffers wear, they must roll a die that matches the Item's rating and interpret the result:
 
-- **On a 1**: The Item's die rating steps down twice.
-- **On a 2-3**: The Item's die rating steps down once.
-- **On a 4+**: The Item's die rating stays unchanged.
+- **On a 1-2**: The Item's die rating steps down. If the Item was Stressed, or if its die rating falls below a d4, it is immediately depleted, worn out, or consumed.
+- **On a 3-4**: The Item becomes Stressed, but the die rating stays unchanged.
+- **On a 5+**: The Item's die rating stays unchanged.
 
-When an Item's die rating falls below a d4, it is depleted: it breaks, is lost, becomes worn out, or is consumed. A character may attempt to repair a depleted Item with a Check, or find a replacement by scavenging.
+A character may attempt to repair a depleted Item or restore a stepped down Item with a Check, given they have the tools or skills. They can also find replacements or refill consumables by scavenging.
 
-Using an Item may increase a Check's Position, lessen the severity of a Consequence, or remove the need for a Check entirely depending on the situation.
+Using an Item may improve a Check's Position, lessen the severity of a Consequence, or remove the need for a Check entirely depending on the situation.
 
 ### Loot Checks
 
 When a character wants to scavenge a place for tools, weapons, medkits, or supplies, they make a Loot Check using their Loot Skill. A Loot Check can only happen in locations where it makes sense and if the fiction allows for it. The player rolls the die that matches their current Loot Skill rating and interprets the result.
 
-- **On a 1**: The character finds nothing and a Consequence occurs.
-- **On a 2-3**: The character finds nothing and a Consequence looms.
-- **On a 4+**: The character finds an Item. The higher the result, the higher the Item's die rating, representing its quality or quantity.
+- **On a 1-2**: The character finds nothing and a Consequence occurs.
+- **On a 3-4**: The character finds nothing and a Consequence looms.
+- **On a 5+**: The character finds an Item. The higher the result, the higher the Item's die rating, representing its quality or quantity.
 
 After a Loot Check, the Loot Skill steps down like any other Skill. A character may continue to use their Loot Skill when it is at d4, but at their own risk.
 
@@ -146,9 +146,9 @@ Every occupation also includes a **Memory** track, representing the fog that clo
 
 At the beginning of each new session, each player unlocks the next memory on their track. They make a Check with their Think Skill to determine how clearly the memory surfaces:
 
-- **On a 1:** The memory comes in fragments. Blurred faces, muffled voices, details that slip away as quickly as they appear.
-- **On a 2-3:** The memory surfaces but is blurred. Parts remain uncertain, but enough is clear to anchor it in the character's past.
-- **On a 4+:** The memory returns in full. Names, stories, faces, people, places, everything is clear as water.
+- **On a 1-2:** The memory comes in fragments. Blurred faces, muffled voices, details that slip away as quickly as they appear.
+- **On a 3-4:** The memory surfaces but is blurred. Parts remain uncertain, but enough is clear to anchor it in the character's past.
+- **On a 5+:** The memory returns in full. Names, stories, faces, people, places, everything is clear as water.
 
 Once a memory is unlocked, its state is fixed; a fragmented or blurred memory will stay fragmented.
 
@@ -178,9 +178,9 @@ Before taking on a Journey, the players use a map and decide where they are goin
 
 At the start of their Journey, the GM assigns a Journey Die to the group, from d4 up to d12, depending on how well equipped the characters are. Each time the players move from one point to another along a path, the GM rolls the Journey Die and interprets the result as follows:
 
-- **On a 1:** The path forward is blocked. The rating of the Journey Die is reduced by one step and the story zooms in on the problem or obstacle that the group is facing until it is resolved. Usually this means the game enters a Survival phase until the path is cleared or a new route is found.
-- **On a 2-3:** The path is hazardous. The rating of the Journey Die is reduced by one step and every player must also reduce the rating of one of their Skills by one step. The GM may use this pause to show how the road wears the characters thin, creating space for uneasy rest where exhaustion makes every word heavier.
-- **On a 4+:** The path ahead is clear. The group makes steady progress, moving closer to their destination without any major setback.
+- **On a 1-2:** The path forward is blocked. The rating of the Journey Die is reduced by one step and the story zooms in on the problem or obstacle that the group is facing until it is resolved. Usually this means the game enters a Survival phase until the path is cleared or a new route is found.
+- **On a 3-4:** The path is hazardous. The rating of the Journey Die is reduced by one step and every player must also reduce the rating of one of their Skills by one step. The GM may use this pause to show how the road wears the characters thin, creating space for uneasy rest where exhaustion makes every word heavier.
+- **On a 5+:** The path ahead is clear. The group makes steady progress, moving closer to their destination without any major setback.
 
 Once a Journey has begun, characters cannot take a Safe Rest until they reach their final destination, or by pausing their travels for a full week in a shelter that is safe and secure enough.
 
@@ -212,23 +212,23 @@ The Haven’s protection is tracked with three dice: the Containment Die, the Su
 
 **Containment Die**: Measures the state of the infection in the surrounding area. It tells the GM how many major Consequences tied to the Breathless they can use during the mission:
 
-- **On a 1:** The GM can use up to three major Consequences.
-- **On a 2-3:** The GM can use up to two major Consequences.
-- **On a 4+:** The GM can use up to one major Consequence.
+- **On a 1-2:** The GM can use up to three major Consequences.
+- **On a 3-4:** The GM can use up to two major Consequences.
+- **On a 5+:** The GM can use up to one major Consequence.
 
 The GM may use a major Consequence at any moment to turn the fiction hard against the survivors, dragging the living dead into the spotlight.
 
 **Supplies Die**: Measures hidden stockpiles and preparation. It tells the group how many times they can declare they “_came prepared”_, pulling a hidden stash, tool, or improvised gear into play. Each use grants a free d12-rated Item that a character can add to their backpack. These supplies are a shared resource for the whole group.
 
-- **On a 1:** One prepped or stashed Item.
-- **On a 2-3:** Two prepped or stashed Items.
-- **On a 4+:** Three prepped or stashed Items.
+- **On a 1-2:** One prepped or stashed Item.
+- **On a 3-4:** Two prepped or stashed Items.
+- **On a 5+:** Three prepped or stashed Items.
 
 **Morale Die**: Measures the will to endure of the group and their community. It sets the number of times the group can Catch Their Breath risk-free during a run. These uses let the survivors reset their Skills and Grit without triggering the usual Consequences.
 
-- **On a 1:** One risk-free Catch Their Breath.
-- **On a 2-3:** Two risk-free Catch Their Breath.
-- **On a 4+:** Three risk-free Catch Their Breath.
+- **On a 1-2:** One risk-free Catch Their Breath.
+- **On a 3-4:** Two risk-free Catch Their Breath.
+- **On a 5+:** Three risk-free Catch Their Breath.
 
 Once all Haven Dice are rolled, the run or mission can begin and the game shifts into a Survival phase until the characters return to their Haven, if they can make it back.
 
