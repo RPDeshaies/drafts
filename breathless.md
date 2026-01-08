@@ -15,7 +15,7 @@ Everyone got infected. Not one soul escaped that fate. The first sign of infecti
 
 That was the best outcome. For the unlucky ones, it went a step further. Their skin drained pale, their eyes glazed, and every breath came in ragged, furious gasps. They became the Breathless: living dead creatures which tore cities apart and left the world in ruins in mere weeks.
 
-Today, they roam the streets and wilds, hunting the living to eat off their flesh and suck in their last breath, literally.
+Today, they roam the streets and wilds, hunting the living to feed on their flesh and suck in their last breath, literally.
 
 A single bite from a Breathless wakes the sickness sleeping inside you, and soon you are one of them, swept into their endless swarms.
 
@@ -25,11 +25,11 @@ Now, all that remains is to loot, shoot, and survive.
 
 ### Content Warning
 
-This game touches on many sensitive subjects such as \[…\]. At the end of the day, this game belongs to the table to do whatever they want with. If the group wants certain topics to be removed or included from the game, they should do it. The table should work together to decide what lines should not be crossed and what subjects should be avoided during play. Some topics can be part of the world without needing to be shown "on screen." It is also normal to forget some things during those first talks, and that is OK. If something uncomfortable comes up in play, pause the game and talk about whether it should be cut out of the story or just hidden behind a veil. Once everyone agrees and feels good about the new direction, the group can rewind the story a bit and pick up play again.
+This game touches on many sensitive subjects. At the end of the day, this game belongs to the table to do whatever they want with. If the group wants certain topics to be removed or included from the game, they should do it. The table should work together to decide what lines should not be crossed and what subjects should be avoided during play. Some topics can be part of the world without needing to be shown "on screen." It is also normal to forget some things during those first talks, and that is OK. If something uncomfortable comes up in play, pause the game and talk about whether it should be cut out of the story or just hidden behind a veil. Once everyone agrees and feels good about the new direction, the group can rewind the story a bit and pick up play again.
 
 ### Game Material
 
-To play this game, each player needs a copy of this pamphlet, a full set of polyhedral dice (d4, d6, d8, d10, and d12), plus pencils and erasers.
+To play this game, each player needs a copy of this pamphlet, a full set of polyhedral dice (d4, d6, d8, d10, and d12), along with pencils and erasers.
 
 ### This Game
 
@@ -60,7 +60,11 @@ During play, players rely on six core Skills of their characters to face challen
 - **Think** is used when careful observation or problem-solving is required, such as noticing small details, analyzing a situation, or repairing something broken.
 - **Sway** is for influencing others, whether through charm, persuasion, manipulation, or intimidation.
 
-When creating a character, each of these Skills is assigned a die rating (d4, d6, etc.), which determines how effective the character is when relying on that Skill.
+When creating a character, each of these Skills is assigned a die rating, which determines how effective the character is when relying on that Skill.
+
+### Consequences
+
+Consequences are negative outcomes the GM introduces when things go wrong: injuries, lost Items, enemies appearing, Positions worsening, or the fiction shifting against the characters.
 
 ### Checks
 
@@ -85,7 +89,7 @@ When the fiction places a character at an advantage or disadvantage during a Che
 - **Bad Position**: The fiction works against the character. The player rolls their Skill die stepped down.
 - **Dire Position**: The challenge is overwhelming. The character cannot proceed with the action as planned. They must try a different approach or shift the fiction before attempting again.
 
-_\> The GM does not need to set a Position for every single Check. This is a tool that prompts a conversation for when a roll feels uncertain or when the stakes of a scene need to be made clearer._
+_\> A Skill at d12 cannot step up further. A Skill at d4 cannot step down further for Position purposes, but the Check can still be attempted. Furthermore, the GM does not need to set a Position for every single Check. This is a tool that prompts a conversation for when a roll feels uncertain or when the stakes of a scene need to be made clearer._
 
 ### Items
 
@@ -97,13 +101,13 @@ Every time a character uses an Item, they must roll a die that matches the Item'
 - **On a 2-3**: The Item's die rating steps down once.
 - **On a 4+**: The Item's die rating stays unchanged.
 
-When an Item's die rating falls below a d4, it is depleted: it breaks, is lost, becomes worn out, or is consumed. A character may attempt to repair a depleted Item with a Check, or find a replacement by scavenging or looting.
+When an Item's die rating falls below a d4, it is depleted: it breaks, is lost, becomes worn out, or is consumed. A character may attempt to repair a depleted Item with a Check, or find a replacement by scavenging.
 
-Using an Item may increase a Check's impact, lessen the severity of a Consequence, or remove the need for a Check entirely depending on the situation.
+Using an Item may increase a Check's Position, lessen the severity of a Consequence, or remove the need for a Check entirely depending on the situation.
 
 ### Loot Checks
 
-When a character wants to scavenge a place for tools, weapons, medkits, or supplies, they make a Loot Check. A Loot Check can only happen in locations where it makes sense and if the fiction allows for it. Each character has a Loot Die, which starts at d12. When looting, the player rolls their current Loot Die and interprets the result.
+When a character wants to scavenge a place for tools, weapons, medkits, or supplies, they make a Loot Check. A Loot Check can only happen in locations where it makes sense and if the fiction allows for it. Each character has a Loot Die, which starts at d12. When making a Loot Check, the player rolls their current Loot Die and interprets the result.
 
 - **On a 1**: The character finds nothing and a Consequence occurs.
 - **On a 2-3**: The character finds nothing and a Consequence looms.
@@ -119,7 +123,7 @@ When a player wants their character to give everything and attempt a feat of pur
 
 ### Harm
 
-When a character faces a Consequence as a result of one of their actions, the GM can decide that they take some Harm. If a character reaches 5 Harm, they become Vulnerable. When Vulnerable, failing a dangerous action could mean being taken out, or sudden death.
+When a character faces a Consequence as a result of one of their actions, the GM can decide that they take some Harm. When a character takes Harm, the GM assigns 1-3 Harm based on severity. Minor injuries deal 1 Harm; serious wounds deal 2-3. If a character reaches 5 Harm, they become Vulnerable. When Vulnerable, failing a Check during a dangerous action could mean being taken out, or sudden death.
 
 ### Catch Their Breath
 
@@ -258,7 +262,9 @@ Fallout may also mark the end of the game, or serve as a turning point where tim
 
 ## Occupations
 
-### Police Officer
+To create a character, first pick an Occupation from the following list. Each Occupation defines the ratings of the character's Skills, the starting Items, and the Memory track. The Memory track is a series of prompts that help reveal who the character was before the outbreak. At the beginning of each session, players unlock the next memory on their track, slowly piecing together fragments of a life now lost.
+
+### 1. Police Officer
 
 - **Skills**: Shoot d10, Think d8, Bash d6, others d4 .
 - **Items**: Service pistol d10, Hand radio d8.
@@ -267,96 +273,125 @@ Fallout may also mark the end of the game, or serve as a turning point where tim
   - PARTNER: What sign told you your partner was in trouble?
   - NEIGHBORHOOD: Who crossed the street to avoid you?
   - VICE: What did you reach for to quiet the noise after shift?
-  - LAST BREATH: Where were you when the sirens stopped meaning help?
+  - LAST BREATH: What happened that made you realize the sirens had stopped meaning help?
 
-### Nurse
+### 2. Nurse
 
 - **Skills**: Think d10, Dash d8, Sway d6, others d4.
 - **Items**: Med kit d10, Energy bars d8.
 - **Memories**:
-  - WARD: Why this unit over the others?
+  - WARD: Who did you lose on your first week in this unit?
   - CODE: Whose pulse did you chase on your first code?
   - BEDSIDE: When did you choose not to tell the truth gently as you were taught?
   - AT HOME: Who needed you when you took one more shift?
-  - LAST BREATH: Where were you when triage became a locked door?
+  - LAST BREATH: What happened that made you realize triage had become a locked door?
 
-### Influencer
+### 3. Influencer
 
 - **Skills**: Sway d10, Sneak d8, Think d6, others d4.
 - **Items**: Phone (maps, camera) d10, Solar charger sheet d8.
 - **Memories**:
   - BRAND: What did your persona claim to stand for?
-  - COLLAB: Who used your channel for their own benefits?
-  - PUBLISHING DEAL: Who \_\_\_\_
+  - COLLAB: Who used your channel for their own gain?
+  - SCANDAL: What post did you wish you could take back?
   - FRIENDS: Who knew the real you off camera?
-  - LAST BREATH: Where were you when the feeds went dark for good?
+  - LAST BREATH: What happened that made you realize the feeds had gone dark for good?
 
-### Mechanic
+### 4. Mechanic
 
 - **Skills**: Think d10, Bash d8, Dash d6, others d4.
 - **Items**: Crowbar d10, Tool kit d8.
 - **Memories**:
-  - TBD
+  - GARAGE: Who taught you to listen to an engine?
+  - DEBT: What did the bank threaten to take from you?
+  - TRUNK: Whose car revealed a secret you wished you hadn't found?
+  - FAMILY: What did your family sacrifice so you could keep the shop?
+  - LAST BREATH: What happened that made you realize the gas stations had run dry?
 
-### Priest
+### 5. Priest
 
 - **Skills**: Sway d10, Think d8, Dash d6, others d4.
 - **Items**: Walking staff d10, Candles and matches d8.
 - **Memories**:
-  - TBD
+  - CALLING: What moment made you believe you were chosen?
+  - CONFESSION: Whose secret still haunts you?
+  - PAST: How low did you fall before you turned towards priesthood?
+  - DOUBT: Who did you fail to save with prayer alone?
+  - LAST BREATH: What happened that made you realize you'd have to turn away those who begged for sanctuary?
 
-### Farmer
+### 6. Farmer
 
 - **Skills**: Think d10, Bash d8, Sneak d6, others d4.
 - **Items**: Machete d10, Alcohol d8.
 - **Memories**:
-  - TBD
+  - LAND: Whose hands worked this soil before yours?
+  - HARVEST: Who did you turn away when the drought came?
+  - FENCE: What crossed onto your property that should have stayed out?
+  - MARKET: Who depended on what you grew?
+  - LAST BREATH: What happened that made you realize the harvest would never come?
 
-### Scientist
+### 7. Scientist
 
 - **Skills**: Think d10, Sneak d8, Sway d6, others d4.
 - **Items**: Meds d10, Gas mask d8.
 - **Memories**:
-  - TBD
+  - LAB: What discovery made you feel like it was all worth it?
+  - DATA: What result did you see that you wished you hadn't?
+  - ETHICS: What line did you cross for funding or progress?
+  - COLLEAGUE: Who warned you to stop before it was too late?
+  - LAST BREATH: What happened that made you realize the outbreak had proved the models right?
 
-### Park Ranger
+### 8. Park Ranger
 
 - **Skills**: Dash d10, Shoot d8, Think d6, others d4.
 - **Items**: Hunting rifle d10, Compass and maps d8.
 - **Memories**:
-  - TBD
+  - TRAIL: Who disappeared on your watch?
+  - RESCUE: Who did you carry out of the backcountry?
+  - POACHERS: What did you find that was never meant to be found?
+  - RADIO: Whose voice kept you company from the other tower?
+  - LAST BREATH: What happened that made you realize even the forests weren't safe?
 
-### Homeless
-
-- **Skills**: Sneak d10, Dash d8, Think d6, others d4.
-- **Items**: Backpack of junk d10, Sleeping bag d8.
-- **Memories**:
-  - TBD
-
-### Veteran
+### 9. Veteran
 
 - **Skills**: Shoot d10, Bash d8, Dash d6, others d4.
 - **Items**: Service rifle d10, Binoculars d8.
 - **Memories**:
-  - TBD
+  - DEPLOYMENT: What country did you leave a piece of yourself in?
+  - SQUAD: Whose name do you still whisper?
+  - RETURN: Who didn't recognize you when you came back?
+  - NIGHT: What sound still wakes you?
+  - LAST BREATH: What happened that made you realize war had come home for good?
 
-### Convict
+### 10. Convict
 
 - **Skills**: Bash d10, Sneak d8, Sway d6, others d4.
 - **Items**: Blunt weapon d10, Lock picks d8.
 - **Memories**:
-  - TBD
+  - CRIME: What did they say you did?
+  - CELL: Who had your back on the inside?
+  - YARD: What favor do you still owe from the inside?
+  - RELEASE: Who wasn't there when you walked out?
+  - LAST BREATH: What happened that made you realize your second chance may not have been worth it?
 
-### Teacher
+### 11. Teacher
 
 - **Skills**: Sway d10, Think d8, Sneak d6, others d4.
 - **Items**: Supply backpack d10, Flashlight d8.
 - **Memories**:
-  - TBD
+  - CLASSROOM: Which student did you fail when it mattered most?
+  - STUDENT: Whose spark did you help ignite?
+  - PARENT: What accusation did you never shake?
+  - BREAK: What did you tell yourself to make it through another year?
+  - LAST BREATH: What happened that made you realize you couldn't protect them anymore?
 
-### DJ
+### 12. DJ
 
 - **Skills**: Sway d10, Dash d8, Sneak d6, others d4.
 - **Items**: Drugs d10, Glow sticks/flares d8.
 - **Memories**:
-  - TBD
+  - SET: Who did you watch destroy themselves on the scene?
+  - BOOTH: Who got you your first gig?
+  - SUNRISE: What after-party went too far?
+  - SILENCE: What were you drowning out with the bass?
+  - LAST BREATH: What happened that made you realize the warehouse wasn't a refuge anymore?
