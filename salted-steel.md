@@ -1,22 +1,35 @@
+<!--
+
+Writing Guidelines
+
+- Mechanical terms should always use Pascal Case (e.g., Strong Hit, Weak Hit, Draw, Vitae, Radiance)
+- "Draw" is only used for the core Draw mechanic (Action card + Score vs Challenge cards)
+- Use "reveal" when revealing cards for other purposes like rolling on tables
+- Never use second person (you, your, yourself). Always use third person: "the character", "the player", "themselves", etc.
+
+-->
+
 **Salted Steel**
 
 A penitent walks into the Derweald to keep their vows. The forest takes them back, piece by piece.
 
 ## The Derweald
 
-The Derweald is a living rot, ancient and hungry. Its roots drink names, memories, and blood. What dies in its shadow rises again, bark-bound and driven by the forest's will.
+The Derweald is a living rot: ancient, patient, and eternally hungry. Its roots burrow through soil and soul alike, drinking names, memories, and blood. What dies beneath its boughs does not rest. The dead rise again as Pallids: bark-bound, hollow-eyed, and mindless, thralls to spirits the Church of the One Light swore it had vanquished centuries ago.
 
-Some hunters survive their claiming and keep their will. They cut root scars into their forearms with blessed steel and pack the wounds with salt until they rise into knotted patterns. These scars are proof that both body and soul are battlegrounds.
+But when the claiming comes swift as the wind, a rare few rise again with their minds intact, cursed with gifts they never asked for and the forest's hooks buried deep in their thoughts. These creatures are power, hunger, and forever. They are called Thornmouths.
 
-The Order of the Duskwatch accepts these penitent hunters as Wardens and sends them back into the thorns to complete their Vows.
+The Order of the Duskwatch hunts Thornmouths without mercy and searches for those with resolve enough to fight the pull of the roots through Radiance and faith to welcome into their ranks as Wardens. The Order's priests carve root scars into their forearms with consecrated steel and pack the wounds with blessed salt until the flesh rises into knotted patterns. Body and soul both becoming a battleground.
+
+Armed with blessed blades, whispered prayers, and salted steel, the Wardens are sent back into the thorns to fulfill their Vows, or die trying.
 
 ## What Is Needed
 
-One standard deck of cards shared among the table, paper, and pencil. One Game Master (or GM) and one to four players.
+One standard deck of cards shared among the table, paper, and pencil. The game can be played solo, cooperatively without a Game Master (GM), or with a GM and one to four players.
 
 Card values follow this scale: Aces count as 1, numbered cards use their normal value, and face cards are valued at 11 for Jacks, 12 for Queens, and 13 for Kings.
 
-After a card is used, it is put in a discard pile. When the deck runs empty and cards are needed, the Game Master shuffles the discard pile to form a new deck.
+After a card is used, it is put in a discard pile. When the deck runs empty and cards are needed, shuffle the discard pile to form a new deck.
 
 ## Making a Character
 
@@ -30,29 +43,38 @@ Each player writes their own name on their character sheet.
 
 The player chooses a name for their character.
 
-### 3. Abilities
+### 3. Scores
 
-Ability scores measure a character's core capabilities. Each Ability ranges from 0 to 6 and determines how many cards the player draws during Tests. During character creation, players distributes 6 points among the four Abilities, with no single Ability exceeding 3:
+Scores measure a character's capabilities and resources.
 
-- **Iron**: Strength and endurance. Governs brute force, resilience, heavy blows, and physical labor.
-- **Edge**: Agility and precision. Governs quick reflexes, acrobatics, stealth, and aimed strikes.
-- **Wits**: Cunning and perception. Governs awareness, deduction, traps, and tactical thinking.
-- **Heart**: Willpower and connection. Governs resolve, persuasion, animal handling, and resisting corruption.
+**Core Scores** range from 0 to 5. During character creation, players distribute 8 points among the four Core Scores, with no single Score exceeding 3:
 
-### 4. Details
+- **Strength**: Physical power. Governs brute force, heavy blows, and feats of might.
+- **Dexterity**: Agility and precision. Governs quick reflexes, acrobatics, stealth, and ranged attacks.
+- **Willpower**: Mental fortitude and presence. Governs resolve, perception, persuasion, and resisting corruption.
+- **Constitution**: Endurance and toughness. Governs resilience, stamina, and resistance to physical hardship.
 
-Details record important facts about a character or track the gear they carry. There is no limit to how many Details a character can have. A character can carry as much gear as makes sense in the fiction, but the Game Master has the final say. Relevant Details can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
+**Reserve Scores** fluctuate during play. All start at 5 during character creation, except Fortune which starts at 3:
 
-During character creation, the player writes one Detail from each category on their character sheet:
+- **Vitae (5)**: Physical and mental health.
+- **Radiance (5)**: Inner light and resistance to corruption.
+- **Supply (5)**: Provisions, ammunition, and expendable gear.
+- **Fortune (3)**: Luck and fate's favor.
 
-- **Weapon**: 1. Sword, 2. Axe, 3. Spear, 4. Bow, 5. Flail, 6. Dagger, 7. Mace, 8. Greatsword, 9. Crossbow, 10. Halberd, Jack. Warhammer, Queen. Quarterstaff, King. Whip
-- **Armor**: 1–3. Cloak or Clothes, 4–6. Leather, 7–9. Chain, 10–11. Plate, 12–13. Shield
-- **Tools**: 1. Lantern, 2. Rope, 3. Crowbar, 4. Lockpicks, 5. Chain, 6. Grapnel, 7. Torch, 8. Vials, 9. Compass, 10. Spikes, Jack. Mirror, Queen. Chalk, King. Trap Kit
-- **Skill**: 1. Herbalist, 2. Blademaster, 3. Marksman, 4. Ritualist, 5. Beast Tamer, 6. Duelist, 7. Scout, 8. Magehunter, 9. Pathfinder, 10. Skirmisher, Jack. Shadowblade, Queen. Deathseeker, King. Spellbreaker
+### 4. Records
+
+Records are used to keep track of important facts about a character, specific items, or other important notes. There is no limit to how many Records a character can have. Relevant Records can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
+
+During character creation, the player reveals a card for each category to determine their starting Records:
+
+- **Weapon** (reveal 1): 1. Sword, 2. Axe, 3. Spear, 4. Bow, 5. Flail, 6. Dagger, 7. Mace, 8. Greatsword, 9. Crossbow, 10. Halberd, Jack. Warhammer, Queen. Quarterstaff, King. Whip
+- **Armor** (reveal 1): 1–3. Cloak or Clothes, 4–6. Leather, 7–9. Chain, 10–11. Plate, 12–13. Shield
+- **Gear** (reveal 3): 1. Lantern, 2. Rope, 3. Crowbar, 4. Lockpicks, 5. Chain, 6. Grapnel, 7. Torch, 8. Vials, 9. Compass, 10. Spikes, Jack. Mirror, Queen. Chalk, King. Trap Kit
+- **Skill** (reveal 1): 1. Herbalist, 2. Blademaster, 3. Marksman, 4. Ritualist, 5. Beast Tamer, 6. Duelist, 7. Scout, 8. Magehunter, 9. Pathfinder, 10. Skirmisher, Jack. Shadowblade, Queen. Deathseeker, King. Spellbreaker
 
 ### 5. Gift
 
-A Gift is power stolen from the Derweald and held by rite and restraint. Each character has one, recorded as a Detail. Each time a character invokes their Gift, the Pull of corruption grows stronger. During character creation, players choose one gift:
+A Gift is power stolen from the Derweald and held by rite and restraint. Each character has one, added as a Record. During character creation, players choose one gift:
 
 - **Stonehide**: Flesh hardens like stone, making it extremely hard to be wounded.
 - **Bonegrind**: Channel brutal force, gaining unnatural strength.
@@ -60,97 +82,248 @@ A Gift is power stolen from the Derweald and held by rite and restraint. Each ch
 - **Wildtongue**: Command the warped creatures of the forest to do your bidding.
 - **Soulgrip**: Seize hold of another's emotions and bend them to your will.
 
-### 6. Harm and Pull
+## Rules
 
-Harm tracks physical or mental trauma. When all five boxes are filled, the character falls unconscious, is critically wounded, or is slain. During character creation, players draw five empty Harm boxes on their character sheet.
+### The Oracle
 
-Pull measures how tightly the Derweald grips the character's soul. At Pull 6, the forest claims them for good. During character creation, players sets their character's Pull to 1.
+The Oracle is used to answer questions when the fiction is uncertain. It can be consulted freely during play to resolve unknowns, or triggered by specific Actions. To consult the Oracle, frame a yes-or-no question and reveal cards based on likelihood:
 
-## Tests
+| Likelihood     | Cards |
+| -------------- | ----- |
+| Almost Certain | 4     |
+| Likely         | 3     |
+| 50/50          | 2     |
+| Unlikely       | 1     |
 
-When a character attempts something challenging, risky, or difficult, or when they try to avoid a direct threat, the Game Master calls for a Test. First, the Game Master frames what's at stake. What happens on failure, what consequences are on the table. Then the Game Master sets a Difficulty Rating (DR).
+- When there are more red cards (Hearts or Diamonds) than black, the answer is **Yes**.
+- When there are more black cards (Spades or Clubs) than red, the answer is **No**.
+- When there is a tie, the answer is **Yes, but...** with a complication.
 
-### Difficulty Rating
+### The Draw
 
-The DR represents how hard something is to accomplish. The Game Master chooses based on the obstacle:
+All of the game's mechanics are called Actions: things that trigger when characters do certain things in the fiction. When an Action is triggered, it will outline that the player must make a Draw, usually in the form of "When this happens, Draw+Score." Follow the steps below to resolve the Action's outcome.
 
-- **Routine (DR 3)**: Simple, but has a chance of failure.
-- **Simple (DR 5)**: Manageable with some skill or luck.
-- **Standard (DR 7)**: A meaningful trial.
-- **Difficult (DR 9)**: Only the capable or fortunate prevail.
-- **Extreme (DR 11)**: At the edge of mortal limits.
+#### Making a Draw
 
-### Making the Test
+The player draws 1 Action card and adds the relevant Score to the card's numeral value. Then, 2 Challenge cards are drawn. The player compares their Action total against each Challenge card.
 
-The Game Master determines which Ability applies. The player draws cards equal to the relevant Ability's value. If the Ability is 0, the player draws 2 cards and discards the highest. Relevant Details (the right or wrong item, the use of a Gift, etc.) may increase or reduce the DR.
+If the player's Action total is higher than both Challenge cards, the Action resolves as a **Strong Hit**. The character succeeds at what they were trying to do and gains something extra.
 
-The player reveals all drawn cards and counts how many meet or exceed the DR:
+If the player's Action total is higher than one Challenge card, the Action resolves as a **Weak Hit**. The character succeeds, but with a lesser effect or cost.
 
-- **2+ cards meet or exceed the DR**: Critical success. The character succeeds decisively: the outcome is better than expected, faster, cleaner, or carries an additional advantage.
-- **1 card meets or exceeds the DR**: Success. The character accomplishes what they set out to do.
-- **0 cards meet or exceed the DR**: Failure. The character fails or faces the stated consequences.
+If the player's Action total is higher than neither Challenge card, the Action resolves as a **Miss**. The character fails or must make serious sacrifices to push forward.
 
-### Extended Tests
+Each Action will define how it resolves depending on whether it's a Strong Hit, Weak Hit, or Miss.
 
-Some tasks require sustained effort: combat, pursuits, fortifications, rituals, or journeys through hostile ground. The Game Master sets a number of successes needed: 3 for short ordeals, 5 for demanding ones, 7 or more for grueling trials. Failures carry consequences but don't reset progress. Each card that meets or exceeds the DR counts as one success toward the goal.
+#### Advantage and Disadvantage
 
-### Combat
+Advantage comes from favorable conditions, preparation, relevant Records, or invoking a Gift. For each level of Advantage, add +1 to the Action total.
 
-There is no turn order or rounds in combat. The fiction dictates who acts and what is possible. A blade cannot harm what it cannot reach. An armored creature will not fall to desperate slashing. The Game Master describes what the threat does, what it is capable of, and what openings exist. Players describe how their characters respond.
+Disadvantage comes from adverse conditions, wounds, missing gear, or hostile circumstances. For each level of Disadvantage, subtract 1 from the Action total.
 
-When a character strikes at an enemy, puts themselves in harm's way, or when a threat is directly on them, they make a Test. The Game Master sets the DR based on the threat.
+### Actions
 
-- **Critical success**: The character strikes true and avoids retaliation.
-- **Success**: The character lands their strike but is harmed as a result.
-- **Failure**: The character misses, and is harmed as a result.
+#### Overcome an Obstacle
 
-Minor threats fall in one or two decisive blows. Dangerous foes are Extended Tests: each success is ground gained, a wound opened, an advantage seized. The fight ends when the successes are met or the characters are broken.
+When a character faces a challenge, obstacle, or dangerous situation, Draw+appropriate Score. If the character acts...
 
-When the enemy acts unopposed, there is no Test. The Game Master describes what happens. Characters can spend their action to defend, dodge, or retreat instead of attacking.
+- With brute force, aggression, or raw power: Draw+Strength.
+- With speed, agility, precision, or stealth: Draw+Dexterity.
+- With cunning, perception, persuasion, or mental fortitude: Draw+Willpower.
+- With endurance, resilience, or toughness: Draw+Constitution.
 
-## Harm
+**On a Strong Hit**: The character overcomes the challenge and gains 1 Advantage they can use on a future Action.
+**On a Weak Hit**: The character overcomes the challenge but faces a cost or complication.
+**On a Miss**: The character fails, and the situation worsens.
 
-Harm tracks how much physical or mental trauma a character can take before things become critical or mortal. A character starts with five empty Harm boxes.
+On a Weak Hit or Miss, reveal a card to determine the nature of the consequence:
 
-When a character is harmed, the Game Master draws cards based on the threat (1 card for standard threats, 2 for serious threats, and 3 for dire threats). Each black card (Spades or Clubs) fills one Harm box. Red cards (Hearts or Diamonds) are near-misses, but don't fill boxes.
+- **♠ Spades**: Danger. The character suffers harm or attracts a threat.
+- **♣ Clubs**: Time. The character loses precious time or an opportunity slips away.
+- **♥ Hearts**: Trust. A relationship is strained or an ally is put at risk.
+- **♦ Diamonds**: Cost. The character loses Supply or valuable gear is damaged.
 
-When all five boxes are filled, the character falls unconscious, is critically wounded, or is slain. The Game Master and player determine which fits the moment.
+#### Secure an Advantage
 
-### Rest and Recovery
+When a character sets up an advantage for themselves or others, Draw+appropriate Score. If the character acts...
 
-Recovery requires time and safety.
+- With intimidation or a show of force: Draw+Strength.
+- With positioning, misdirection, or quick movement: Draw+Dexterity.
+- With patience or holding ground: Draw+Constitution.
+- With careful planning, insight, or deception: Draw+Willpower.
 
-- **Short Rest** (minutes of catching breath): The player draws 1 card.
-- **Long Rest** (hours of shelter and bandages): The player draws 2 cards.
-- **Full Rest** (days in true sanctuary): The player draws 3 cards.
+**On a Strong Hit**: Create 2 Advantage that can be used on the next related Action.
+**On a Weak Hit**: Create 1 Advantage that can be used on the next related Action.
+**On a Miss**: The character is exposed. Take 1 Disadvantage on the next Action.
 
-Each red card clears 1 Harm box.
+On a Weak Hit or Miss, reveal a card to determine the nature of the consequence:
 
-## Pull
+- **♠ Spades**: Danger. The character suffers harm or attracts a threat.
+- **♣ Clubs**: Time. The character loses precious time or an opportunity slips away.
+- **♥ Hearts**: Trust. A relationship is strained or an ally is put at risk.
+- **♦ Diamonds**: Cost. The character loses Supply or valuable gear is damaged.
 
-A character's Pull level represents the Derweald's hold over their corrupted soul, a creeping tether that tightens with every dark bargain. It begins at 1 and climbs toward 6. When Pull reaches 6, the forest claims the character forever: they are removed from play, fall under the Game Master's control, and become a threat to those they once called allies.
+#### Compel
 
-### Invoking a Gift
+When a character attempts to persuade, threaten, or manipulate someone into doing what they want, Draw+appropriate Score. If the character acts...
 
-A character can invoke their Gift to solve problems or overcome obstacles. Using a Gift may cancel the need for a Test entirely, or significantly reduce the DR of a Test. Anytime a character invokes their Gift, they must make a Pull Check.
+- With threats, intimidation, or a show of force: Draw+Strength.
+- With persuasion, deception, or manipulation: Draw+Willpower.
+- By offering payment, bribes, or trade: Draw+Supply.
 
-**Pull Check**: The player draws 1 card and compares its value to their current Pull level. If the card's value is less than or equal to their Pull level, it increases by 1.
+**On a Strong Hit**: The target complies. They do what the character wants, or reveal information they were hiding.
+**On a Weak Hit**: The target complies, but demands something in return or will remember this slight.
+**On a Miss**: The target refuses and the relationship sours. They may become hostile or alert others.
 
-### Purification
+#### Forge a Bond
 
-A character can resist the forest's claim in moments of sanctity. This requires a place of holiness: a shrine, an altar, a sacred grove, or a sanctuary blessed by the Church. The character confesses sins at a relic, holds a vigil while fasting, prays over running water, or pours blood into salt.
+When a character spends meaningful time with someone, shares hardship, or offers aid without expectation, Draw+Willpower.
 
-After the rite, the player draws 3 cards. For each drawn card that is red, the character's Pull level is reduced by 1.
+**On a Strong Hit**: A bond is formed. Add them as a Record. The character can call on this bond as an Advantage in the future.
+**On a Weak Hit**: A connection is made, but trust must still be earned. The character can call on this bond as a one-time Advantage.
+**On a Miss**: The attempt falls flat. The other party remains distant or suspicious.
+
+#### Gather Intel
+
+When a character investigates, searches for clues, or gathers information, Draw+appropriate Score. If the character acts...
+
+- With careful searching, sneaking, or observation: Draw+Dexterity.
+- With deduction, interrogation, or reading people: Draw+Willpower.
+- By paying for information or bribing sources: Draw+Supply.
+
+**On a Strong Hit**: The character learns something valuable and gains 1 Advantage on their next related Action.
+**On a Weak Hit**: The character learns something useful, but incomplete.
+**On a Miss**: The character finds nothing, or what they find puts them in danger.
+
+#### Read the Situation
+
+When a character takes a moment to assess the situation and trust their instincts, Draw+Fortune.
+
+**On a Strong Hit**: The character gains clarity. Take 2 Advantage on the next Action.
+**On a Weak Hit**: The character gets a read. Take 1 Advantage on the next Action.
+**On a Miss**: The character misreads the situation. Lose 1 Fortune.
+
+#### Forage
+
+When a character searches for food, water, or useful materials in the wild, Draw+Fortune.
+
+**On a Strong Hit**: The character finds what they need and more. Restore 2 Supply.
+**On a Weak Hit**: The character finds enough to get by. Restore 1 Supply.
+**On a Miss**: The character finds nothing, or attracts unwanted attention.
+
+#### Spend Supply
+
+When a character spends resources to acquire goods or services, Draw+Supply.
+
+This can be used to obtain weapons, armor, gear, skills training, services, hirelings, or other valuable assets.
+
+**On a Strong Hit**: The character gets what they want and more. Add it as a Record and restore 1 Supply (a good deal).
+**On a Weak Hit**: The character gets what they want. Add it as a Record.
+**On a Miss**: The goods are unavailable, inferior, or come with strings attached. Lose 1 Supply anyway.
+
+#### Treat Wounds
+
+When a character tends to the injuries of others, Draw+Dexterity. When a character tends to their own injuries, Draw+Constitution.
+
+**On a Strong Hit**: Restore 2 Vitae to the wounded character.
+**On a Weak Hit**: Restore 1 Vitae to the wounded character.
+**On a Miss**: The treatment fails. Lose 1 Supply.
+
+#### Enter Combat
+
+When a character initiates combat or reacts to an ambush, Draw+Dexterity.
+
+**On a Strong Hit**: The character has the initiative. Take 1 Advantage on the first Inflict Harm Action and act before the enemy.
+**On a Weak Hit**: Combat begins. No advantage to either side.
+**On a Miss**: The enemy has the drop on the character. Take 1 Disadvantage on the first Action.
+
+#### Inflict Harm
+
+When a character strikes at an enemy or engages a threat in combat, Draw+Strength for melee attacks, Draw+Dexterity for ranged attacks, or Draw+Willpower for arcane attacks.
+
+There is no turn order or rounds. The fiction dictates who acts and what is possible. A blade cannot harm what it cannot reach. An armored creature will not fall to desperate slashing.
+
+**On a Strong Hit**: The character strikes true and avoids retaliation.
+**On a Weak Hit**: The character lands the strike but is harmed as a result.
+**On a Miss**: The character misses, and is harmed as a result.
+
+Minor threats fall in one or two decisive blows. Dangerous foes require multiple successes: each one is ground gained, a wound opened, an advantage seized.
+
+#### Endure Harm
+
+When a character suffers harm from a threat, Draw+Constitution.
+
+If the threat is serious, take 1 Disadvantage. If the threat is dire, take 2 Disadvantage.
+
+**On a Strong Hit**: The character endures. Lose no Vitae.
+**On a Weak Hit**: The character is shaken. Lose 1 Vitae.
+**On a Miss**: The character is wounded. Lose 2 Vitae.
+
+#### Resist Death
+
+When a character's Vitae reaches 0, the character is on the brink of death. Draw+Fortune.
+
+**On a Strong Hit**: The character clings to life. They stabilize at 1 Vitae and remain conscious.
+**On a Weak Hit**: The character survives, but barely. They stabilize at 1 Vitae but fall unconscious or suffer a lasting wound (add it as a Record).
+**On a Miss**: Death claims the character.
+
+#### Resist the Forest
+
+When a character's Radiance reaches 0, the pull of the forest threatens to consume them. Draw+Fortune.
+
+**On a Strong Hit**: The character resists the call. They stabilize at 1 Radiance and maintain their will.
+**On a Weak Hit**: The character holds on, but the roots have taken hold. They stabilize at 1 Radiance but gain a permanent mark of corruption (add it as a Record).
+**On a Miss**: The forest claims the character. They are removed from play and become a threat to those they once called allies.
+
+#### Rest
+
+When a character rests in a safe place or shelter, Draw+Constitution.
+
+If the character takes a Long Rest (hours of shelter and bandages), take 1 Advantage. If the character takes a Full Rest (days in true sanctuary), take 2 Advantage.
+
+**On a Strong Hit**: Restore 3 Vitae.
+**On a Weak Hit**: Restore 2 Vitae.
+**On a Miss**: Restore 1 Vitae.
+
+After a character has rested, shuffle the discard pile back into the deck.
+
+#### Make Camp
+
+When a character makes camp in the wilds, Draw+Supply.
+
+**On a Strong Hit**: The camp is secure. Restore 3 Vitae and the night passes without incident.
+**On a Weak Hit**: The camp holds, but something stirs. Restore 2 Vitae, but face a complication or lose 1 Supply.
+**On a Miss**: The camp is compromised. Restore 1 Vitae, and danger approaches.
+
+#### Purify
+
+When a character seeks to cleanse their soul and resist the forest's claim, Draw+Willpower.
+
+If the character is at a place of holiness (a shrine, altar, sacred grove, or sanctuary blessed by the Church), take 1 Advantage. If the character performs a rite of purification (confessing sins at a relic, holding vigil while fasting, praying over running water, or pouring blood into salt), take 1 Advantage.
+
+**On a Strong Hit**: Restore 3 Radiance.
+**On a Weak Hit**: Restore 2 Radiance.
+**On a Miss**: Restore 1 Radiance.
+
+#### Invoke Gift
+
+When a character calls upon their Gift to overcome an obstacle or solve a problem, Draw+Willpower.
+
+**On a Strong Hit**: The character resists the call of the roots. Radiance stays as it is.
+**On a Weak Hit**: The character feels the call of the roots. Lose 1 Radiance.
+**On a Miss**: The character is overwhelmed by the call of the roots. Lose 2 Radiance.
+
+If a character's Radiance ever reaches 0, the forest claims the character. They are removed from play and become a threat to those they once called allies.
 
 ## Getting Started
 
 ### The Opening Scene
 
-Each player introduces their character: their name, what they look like, and one memory from before the claiming. Then the Game Master frames the opening: the group is already mid-mission, deep in the thorns, with their Vow half-complete and trouble closing in.
+Each player introduces their character: their name, what they look like, and one memory from before the claiming. Then frame the opening: the group is already mid-mission, deep in the thorns, with their Vow half-complete and trouble closing in.
 
 ### Group Vow
 
-A Vow is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Vow, each character fully clears their Pull and the group takes on a new Vow.
+A Vow is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Vow, each character fully restores their Radiance and the group takes on a new Vow.
 
 To generate a Vow, draw one card from each table and combine the results. Or choose elements that speak to you.
 
