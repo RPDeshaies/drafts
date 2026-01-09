@@ -1,4 +1,7 @@
 <!--
+TODOS:
+
+- verify how to gain fortune or lose all Reserve Scores, more speciailly Luck
 
 Writing Guidelines
 
@@ -201,6 +204,24 @@ On a Partial Success, reveal a card to determine the nature of the Cost:
 - **♦ Diamonds**: Loss. The character loses Supply or valuable gear is damaged.
 - **♥ Hearts**: Trust. A relationship is strained or an ally is put at risk.
 
+#### Avoid a Consequence
+
+When a character tries to avoid a consequence from a hazard, hostile opposition, or dangerous environment, Draw+appropriate Score. If the character reacts...
+
+- With brute force, blocking, or standing firm: Draw+Strength.
+- With speed, dodging, or quick reflexes: Draw+Dexterity.
+- With focus, willpower, or mental resistance: Draw+Willpower.
+- With endurance, resilience, or toughness: Draw+Constitution.
+- If nothing else applies: Draw+Fortune.
+
+> If the threat is serious, take 1 Disadvantage. If the threat is dire, take 2 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, avoiding the consequence entirely.
+- **On a Partial Success**: The character succeeds, suffering a lesser consequence. When suffering Harm, lose 1 Vitae. When fighting corruption, lose 1 Radiance. When depleting resources, lose 1 Supply. If nothing else applies, the consequence is rooted in the fiction.
+- **On a Failure**: The character fails, suffering the full consequence. When suffering Harm, lose 2 Vitae. When fighting corruption, lose 2 Radiance. When depleting resources, lose 2 Supply. If nothing else applies, the consequence is rooted in the fiction.
+
 #### Secure an Advantage
 
 When a character sets up an advantage for themselves or others, Draw+appropriate Score. If the character acts...
@@ -308,9 +329,9 @@ This can be used to obtain weapons, armor, gear, skills training, services, hire
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, getting what they want and more. Add it as a Record and restore 1 Fortune.
+- **On a Success**: The character succeeds, getting what they want and more. Add it as a Record..
 - **On a Partial Success**: The character succeeds, getting what they want. Add it as a Record.
-- **On a Failure**: The character fails, finding goods unavailable, inferior, or with strings attached. Lose 1 Fortune.
+- **On a Failure**: The character fails, finding goods unavailable, inferior, or with strings attached.
 
 #### Treat Wounds
 
@@ -332,9 +353,9 @@ When a character initiates combat or reacts to an ambush, Draw+Dexterity.
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, seizing initiative. Take 1 Advantage on the first Inflict Harm Action and act before the enemy.
-- **On a Partial Success**: The character succeeds, engaging on equal footing. No Advantage to either side.
-- **On a Failure**: The character fails, losing initiative. Take 1 Disadvantage on the first Action.
+- **On a Success**: The character succeeds, seizing initiative and taking 1 Advantage for their next Action.
+- **On a Partial Success**: The character succeeds, engaging on equal footing.
+- **On a Failure**: The character fails, losing initiative and taking 1 Disadvantage on their next Action.
 
 There is no turn order or rounds. This Action establishes who acts first, then the fiction flows back and forth between the characters and their enemies.
 
@@ -357,18 +378,6 @@ Then, resolve the Action as follows:
 - **On a Failure**: The character fails, missing and suffering Harm in return.
 
 Minor threats fall in one or two decisive blows. Dangerous foes require multiple successes: each one is ground gained, a wound opened, an advantage seized.
-
-#### Endure Harm
-
-When a character suffers Harm from a threat, Draw+Constitution.
-
-> If the threat is serious, take 1 Disadvantage. If the threat is dire, take 2 Disadvantage.
-
-Then, resolve the Action as follows:
-
-- **On a Success**: The character succeeds, enduring the blow. Lose no Vitae.
-- **On a Partial Success**: The character succeeds, shrugging off most of the blow. Lose 1 Vitae.
-- **On a Failure**: The character fails, taking a serious wound. Lose 2 Vitae.
 
 #### Resist Death
 
