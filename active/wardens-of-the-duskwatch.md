@@ -9,7 +9,7 @@ Writing Guidelines
 
 -->
 
-**Salted Steel**
+**Wardens of the Duskwatch**
 
 A penitent walks into the Derweald to keep their vows. The forest takes them back, piece by piece.
 
