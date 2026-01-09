@@ -1,7 +1,6 @@
 <!--
-TODOS:
-
-- verify how to gain fortune or lose all Reserve Scores, more speciailly Luck
+TODO: think abouw how to track money
+TODO: think abouw how to track progression
 
 Writing Guidelines
 
@@ -11,6 +10,8 @@ Writing Guidelines
 - Write in third person only. Use the character, the player, or themselves. Never use you, your, or yourself.
 - Use the Oxford comma in all lists.
 - Avoid contractions. Write is not, do not, and cannot instead of isn't, don't, and can't.
+- Never use em dashes. Use regular dashes, commas, or colons instead.
+- Avoid the "X, not Y" or "X as Y, not Z" sentence structure. State what something is directly instead of contrasting it.
 - List card suits in this order: Clubs, Spades, Diamonds, Hearts.
 - Phrase Action outcomes using present participles (-ing verbs) directly after the result. Put mechanical effects first, then narrative flavor.
 
@@ -50,6 +51,10 @@ One standard deck of cards shared among the table, paper, and pencil. The game c
 Card values follow this scale: Aces count as 1, numbered cards use their normal value, and face cards are valued at 11 for Jacks, 12 for Queens, and 13 for Kings.
 
 Place used cards in a discard pile. When the deck runs empty, or whenever revealing a Joker, shuffle the discard pile to form a new deck.
+
+## Safety and Comfort
+
+This game explores themes of death, corruption, and violence. Before play begins, discuss boundaries and comfort levels with all players. Establish what topics are off-limits or should be handled with care, and respect those limits without question. Any player may pause the game at any time to discuss comfort, adjust content, or step away from a scene. The goal is for everyone to have a meaningful experience without crossing into discomfort.
 
 ## Making a Character
 
@@ -190,6 +195,8 @@ Fortune can be spent or earned by pushing outcomes beyond what fate intended.
 
 Fortune cannot go lower than 0 or higher than 5. A player cannot spend Fortune they do not have.
 
+Whenever a Joker is revealed from the deck, the player who revealed it gains 1 Fortune.
+
 ### Actions
 
 #### Overcome a Challenge
@@ -265,23 +272,26 @@ On a Failure, the player may reveal a card to help determine the nature of the C
 - **♦ Diamonds**: Loss. The character loses Supply, or a debt must be paid first.
 - **♥ Hearts**: Trust. A relationship is strained, or word spreads about the character's methods.
 
-#### Forage
+#### Resupply
 
-When a character searches for food, water, or useful materials in the wild, Draw+Fortune.
+When a character seeks to restock provisions, ammunition, or gear, Draw+appropriate Score. If the character acts...
 
-> If the area is plentiful (near fresh water, fertile land, or abundant game), take 1 Advantage. If the area is barren or corrupted, take 1 Disadvantage.
+- By purchasing goods at a safe haven, trading post, or settlement: Draw+Willpower.
+- By foraging for food, water, or materials in the wild: Draw+Fortune.
+
+> If the area is plentiful (near fresh water, fertile land, abundant game, or well-stocked markets), take 1 Advantage. If the area is barren, corrupted, or supplies are scarce, take 1 Disadvantage.
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character finds what they need and more, restoring 2 Supply.
-- **On a Bare Success**: The character finds enough to get by, restoring 1 Supply.
-- **On a Failure**: The character finds nothing, and there is a Cost.
+- **On a Great Success**: The character acquires what they need and more, restoring 2 Supply.
+- **On a Bare Success**: The character acquires enough to get by, restoring 1 Supply.
+- **On a Failure**: The character acquires nothing, and there is a Cost.
 
 On a Failure, the player may reveal a card to help determine the nature of the Cost:
 
-- **♣ Clubs**: Time. The search takes far longer than expected.
-- **♠ Spades**: Danger. The character attracts predators or stumbles into a threat.
-- **♦ Diamonds**: Loss. Gear is damaged or lost during the search.
+- **♣ Clubs**: Time. The search or negotiation takes far longer than expected.
+- **♠ Spades**: Danger. The character attracts predators, thieves, or unwanted attention.
+- **♦ Diamonds**: Loss. Gear is damaged, lost, or the price is far higher than expected.
 - **♥ Hearts**: Exposure. The character suffers exhaustion or minor harm. Lose 1 Vitae.
 
 #### Treat Wounds
@@ -355,6 +365,8 @@ Then, resolve the Action as follows:
 - **On a Bare Success**: The character barely survives, stabilizing at 1 Vitae but falling unconscious. Add a permanent wound as a Record.
 - **On a Failure**: The character succumbs to their wounds.
 
+If a character dies, the player must create a new character and introduce them into the fiction as soon as possible.
+
 #### Resist the Forest
 
 When a character's Radiance reaches 0, the pull of the forest threatens to consume them. Draw+Fortune.
@@ -364,6 +376,8 @@ Then, resolve the Action as follows:
 - **On a Great Success**: The character resists the call, regaining 1 Radiance.
 - **On a Bare Success**: The character holds on, stabilizing at 1 Radiance but feeling the roots take hold. Add a permanent mark of corruption as a Record.
 - **On a Failure**: The character succumbs to the forest.
+
+If a character succumbs to the forest, the player must create a new character and introduce them into the fiction as soon as possible.
 
 #### Rest
 
@@ -409,9 +423,127 @@ Then, resolve the Action as follows:
 
 - **On a Great Success**: The character invokes their Gift, keeping their Radiance.
 - **On a Bare Success**: The character invokes their Gift, losing 1 Radiance.
-- **On a Failure**: The character loses control of their Gift, losing 2 Radiance.
+- **On a Failure**: The character invokes their Gift but looses control, losing 2 Radiance.
+
+The outcome of invoking a Gift is rooted in the fiction. The character describes how they channel the forest's power, and the effect manifests according to the Gift's nature and the situation at hand.
 
 If a character's Radiance ever reaches 0, they must immediately use the `Resist the Forest` Action.
+
+## Principles
+
+### Principles for Game Masters
+
+**The Forest Lives**
+
+- The Derweald is ancient, patient, and always hungry.
+- Telegraph threats clearly. Let players see danger before it strikes.
+- The forest remembers. Let the world react to what the characters do.
+
+**Provide Information**
+
+- Describe freely. Let players ask questions and explore.
+- Describe what they see, not what it means. Let players interpret and decide for themselves.
+- Do not hide crucial information behind Draws. Players cannot make smart decisions if they are blinded.
+
+**Failure Means Cost**
+
+- Failure imposes Cost whic should be rooted in the fiction. Time lost, harm suffered, trust broken, supplies spent, etc.
+- If no Cost make sense, let failure be the cost and move forward.
+- If something is impossible, explain why through the fiction.
+
+**Threat, Not Numbers**
+
+- Enemies and hazards do not need stats. Describe what they do, how dangerous they are, and let the fiction decide.
+- Minor threats deal 1 Vitae or Radiance. Serious threats deal 2. Dire threats deal 3 or more.
+- Armored foes take more strikes. Ethereal foes might not fall to steel. Describe what happens, then let the players adapt.
+
+**Reward Ingenuity**
+
+- Gifts, Records, and preparation should matter. Give players opportunities to use what they have.
+- Clever plans, the right gear, or an ally's help may reduce risk to the point where a challenge is no longer one and success is simply given.
+- The rules serve the fiction. When in doubt, look at what makes sense in the story.
+
+**NPCs Are People**
+
+- Non-player characters have goals, fears, and reasons to exist. They are not obstacles or quest-givers.
+- Most will talk before fighting. Most will flee before dying. Most remember debts and grudges.
+- Let NPC decisions emerge from who they are and what they want.
+
+**The Hunt Guides**
+
+- Use the Hunt to frame scenes, establish stakes, and create urgency. Each Hunt is a journey into the thorns.
+- When the fiction stalls, return to the Hunt. What stands in the way? What has changed? What is the next step?
+- Completing a Hunt is a reward. Make it mean something. Let the characters catch their breath before the next one begins.
+
+### Principles for Players
+
+**Records Are Tools**
+
+- Core Scores and Reserve Scores do not define the character. They are tools to help the mechanics.
+- Records mark the character's journey. Invoke them when they help, accept when they complicate.
+- Think like a problem-solver.
+
+**Fiction Triggers Actions**
+
+- Describe what the character does first. If it matches an Action's trigger, then Draw to see how it unfolds.
+- Actions are only used when their trigger condition is met. Do not Draw unless the fiction calls for it.
+- When an Action is triggered, embrace it. The mechanics create interesting situations and complications.
+
+**Press Forward**
+
+- The forest waits for no one. Keep moving, keep deciding, keep the fiction alive.
+- When uncertain, consult the Oracle or reveal a card for inspiration.
+- Be bold. The mechanics exist to support decisive action, not to punish it.
+
+**Respect the Fiction**
+
+- The fiction determines what is possible. A sword cannot harm what it cannot reach. Corruption does not vanish because of a single success.
+- Ask questions. Listen to the answers. The GM provides information freely. Use it to make informed choices.
+- Respect the stakes. When the GM says something is dangerous, believe them.
+
+**Embrace Complications**
+
+- Failure creates complications and turns the story in new directions.
+- Accept hardship when it serves the story. Restore Fortune when the moment feels right.
+- Let wounds, debts, and corruption shape who the character becomes over time.
+
+**Work Together**
+
+- The mission is what holds the group together. Honor it.
+- Work together to overcome obstacles. Share Advantage, share risk, share the weight.
+- When a character falls, create someone new and bring them into the fiction quickly. The Hunt continues.
+
+### Principles for Solo Play
+
+**Trust the Oracle**
+
+- Consult the Oracle freely. Use it to determine what happens when uncertain.
+- Frame questions as yes or no. Let the Oracle shape the path in broad strokes.
+- When the Oracle gives a twist, lean into it. Unexpected results create the best stories.
+
+**Play to Find Out**
+
+- Do not plan the entire Hunt. Discover it through play.
+- Use Oracle Sparks to generate ideas when stuck. Reveal cards and interpret them through the lens of the fiction.
+- Let NPCs surprise the character. Decide their goals, then ask the Oracle how they react.
+
+**Structure of Play**
+
+- Begin each scene by establishing where the character is and what they are doing. Use the Oracle to answer questions about the environment.
+- As the character acts, check if their actions trigger any Actions. If so, Draw to resolve.
+- When a scene concludes, fast forward to the next moment of uncertainty or use the Oracle to determine what happens next.
+
+**Be Fair, Not Kind**
+
+- Respect the fiction. If the character is outmatched, they are outmatched.
+- Impose Costs when they make sense. Let the character suffer setbacks and complications.
+- The keep the stakes are real, do not fudge Draws or ignore bad results.
+
+**Pace Yourself**
+
+- A Hunt should take multiple sessions. Let it unfold over time.
+- Rest, resupply, and purify between major obstacles. Give the character breathing room.
+- When the Hunt completes, take time to reflect before starting the next one.
 
 ## Getting Started
 
