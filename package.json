@@ -1,0 +1,16 @@
+{
+  "name": "drafts",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "codex": "^0.2.3"
+  },
+  "scripts": {
+    "codex": "bun install codex && bun codex"
+  }
+}
