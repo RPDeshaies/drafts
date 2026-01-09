@@ -1,5 +1,4 @@
 <!--
-TODO: think abouw how to track money
 TODO: think abouw how to track progression
 
 Writing Guidelines
@@ -68,7 +67,20 @@ Each player writes their own name on their character sheet.
 
 The player chooses a name for their character.
 
-### 3. Scores
+### 3. Records
+
+Records are used to keep track of important facts about a character: specific items, bonds with non-player characters, pieces of intel, clues, lasting wounds, or other important notes. There is no limit to how many Records a character can have. Relevant Records can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
+
+During character creation, the player reveals a card for each category to determine their starting Records:
+
+- **Weapon** (reveal 1): 1. Sword, 2. Axe, 3. Spear, 4. Bow, 5. Flail, 6. Dagger, 7. Mace, 8. Greatsword, 9. Crossbow, 10. Halberd, Jack. Warhammer, Queen. Quarterstaff, King. Whip
+- **Armor** (reveal 1): 1–3. Cloak or Clothes, 4–6. Leather, 7–9. Chain, 10–11. Plate, 12–13. Shield
+- **Gear** (reveal 3): 1. Lantern, 2. Rope, 3. Crowbar, 4. Lockpicks, 5. Chain, 6. Grapnel, 7. Torch, 8. Vials, 9. Compass, 10. Spikes, Jack. Mirror, Queen. Chalk, King. Trap Kit
+- **Skill** (reveal 1): 1. Herbalist, 2. Blademaster, 3. Marksman, 4. Ritualist, 5. Beast Tamer, 6. Duelist, 7. Scout, 8. Magehunter, 9. Pathfinder, 10. Skirmisher, Jack. Shadowblade, Queen. Deathseeker, King. Spellbreaker
+
+> Significant amounts of coin, artifacts, valuable treasures, or debts should also be tracked as Records when acquired during play.
+
+### 4. Scores
 
 Scores measure a character's capabilities and resources.
 
@@ -83,19 +95,8 @@ Scores measure a character's capabilities and resources.
 
 - **Vitae (5)**: Physical and mental health.
 - **Radiance (5)**: Inner light and resistance to corruption.
-- **Supply (5)**: Provisions, ammunition, and expendable gear.
+- **Supply (5)**: Provisions, ammunition, expendable gear, and purchasing power for everyday needs.
 - **Fortune (3)**: Luck and fate's favor.
-
-### 4. Records
-
-Records are used to keep track of important facts about a character: specific items, bonds with non-player characters, pieces of intel, clues, lasting wounds, or other important notes. There is no limit to how many Records a character can have. Relevant Records can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
-
-During character creation, the player reveals a card for each category to determine their starting Records:
-
-- **Weapon** (reveal 1): 1. Sword, 2. Axe, 3. Spear, 4. Bow, 5. Flail, 6. Dagger, 7. Mace, 8. Greatsword, 9. Crossbow, 10. Halberd, Jack. Warhammer, Queen. Quarterstaff, King. Whip
-- **Armor** (reveal 1): 1–3. Cloak or Clothes, 4–6. Leather, 7–9. Chain, 10–11. Plate, 12–13. Shield
-- **Gear** (reveal 3): 1. Lantern, 2. Rope, 3. Crowbar, 4. Lockpicks, 5. Chain, 6. Grapnel, 7. Torch, 8. Vials, 9. Compass, 10. Spikes, Jack. Mirror, Queen. Chalk, King. Trap Kit
-- **Skill** (reveal 1): 1. Herbalist, 2. Blademaster, 3. Marksman, 4. Ritualist, 5. Beast Tamer, 6. Duelist, 7. Scout, 8. Magehunter, 9. Pathfinder, 10. Skirmisher, Jack. Shadowblade, Queen. Deathseeker, King. Spellbreaker
 
 ### 5. Gift
 
@@ -180,13 +181,13 @@ If the player's Action total is higher than neither Challenge card, the Action r
 
 Each Action provides prompts to help determine what that Cost might be.
 
-#### Advantage and Disadvantage
+#### Using Advantage and Disadvantage
 
 Advantage comes from favorable conditions, preparation, relevant Records, or invoking a Gift. For each level of Advantage, add +1 to the Action total.
 
 Disadvantage comes from adverse conditions, wounds, missing gear, or hostile circumstances. For each level of Disadvantage, subtract 1 from the Action total.
 
-#### Tempting Fate
+#### Using Fortune
 
 Fortune can be spent or earned by pushing outcomes beyond what fate intended.
 
@@ -279,7 +280,9 @@ When a character seeks to restock provisions, ammunition, or gear, Draw+appropri
 - By purchasing goods at a safe haven, trading post, or settlement: Draw+Willpower.
 - By foraging for food, water, or materials in the wild: Draw+Fortune.
 
-> If the area is plentiful (near fresh water, fertile land, abundant game, or well-stocked markets), take 1 Advantage. If the area is barren, corrupted, or supplies are scarce, take 1 Disadvantage.
+> When foraging in an area that is fertile or lush, take 1 Advantage. If the area is barren or corrupted, take 1 Disadvantage.
+
+> When selling minor valuables found during a Hunt, each item grants 1 Advantage. Exceptional artifacts or treasures cannot be sold through this Action. Their payment becomes a Record instead.
 
 Then, resolve the Action as follows:
 
