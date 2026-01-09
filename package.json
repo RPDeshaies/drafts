@@ -2,7 +2,8 @@
   "name": "drafts",
   "private": true,
   "scripts": {
-    "pdf": "md-to-pdf active/*.md archives/*.md"
+    "clean:pdf": "rm -f active/*.pdf archives/*.pdf",
+    "pdf": "npm run clean:pdf && md-to-pdf active/*.md archives/*.md"
   },
   "dependencies": {
     "md-to-pdf": "^5.2.4"

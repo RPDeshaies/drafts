@@ -80,7 +80,7 @@ After a Check, every participant reduces the current rating of the Skill they us
 
 When needed, the GM may also test how lucky a character is. To do this, they assign a die (e.g. d6) based on the odds of the event occurring, roll it, and interpret the result as they would any other Check.
 
-_\> Consequences are negative outcomes the GM introduces when things go wrong: injuries or Harm, lost or stressed Items, enemies appearing, Positions worsening, or the fiction shifting against the characters._
+> _Consequences are negative outcomes the GM introduces when things go wrong: injuries or Harm, lost or stressed Items, enemies appearing, Positions worsening, or the fiction shifting against the characters._
 
 ### Position
 
@@ -91,7 +91,7 @@ When the fiction places a character at an advantage or disadvantage during a Che
 - **Bad Position**: The fiction works against the character. The player rolls their Skill die stepped down.
 - **Dire Position**: The challenge is overwhelming. The character cannot proceed with the action as planned. They must try a different approach or shift the fiction before attempting again.
 
-_\> A Skill at d12 cannot step up further. A Skill at d4 cannot step down further for Position purposes, but the Check can still be attempted. Furthermore, the GM does not need to set a Position for every single Check. This is a tool that prompts a conversation for when a roll feels uncertain or when the stakes of a scene need to be made clearer._
+> _A Skill at d12 cannot step up further. A Skill at d4 cannot step down further for Position purposes, but the Check can still be attempted. Furthermore, the GM does not need to set a Position for every single Check. This is a tool that prompts a conversation for when a roll feels uncertain or when the stakes of a scene need to be made clearer._
 
 ### Items
 
@@ -117,7 +117,7 @@ When a character wants to scavenge a place for tools, weapons, medkits, or suppl
 
 After a Loot Check, the Loot Skill steps down like any other Skill. A character may continue to use their Loot Skill when it is at d4, but at their own risk.
 
-_\> When a Consequence looms, the GM begins foreshadowing danger, dropping hints that something threatening is on the horizon. When a Consequence occurs, the story shifts sharply, forcing everyone to abandon their original plan and scramble for a plan B._
+> _When a Consequence looms, the GM begins foreshadowing danger, dropping hints that something threatening is on the horizon. When a Consequence occurs, the story shifts sharply, forcing everyone to abandon their original plan and scramble for a plan B._
 
 ### Grit
 
@@ -155,7 +155,7 @@ At the beginning of each new session, each player unlocks the next memory on the
 
 Once a memory is unlocked, its state is fixed; a fragmented or blurred memory will stay fragmented.
 
-_\> This phase of play is very much a conversation. A way for the GM to ask questions and for the player to try to refine who their character was and how it compares to who they are now. Other players may give suggestions but the concerned player is the one making the final call about their character._
+> _This phase of play is very much a conversation. A way for the GM to ask questions and for the player to try to refine who their character was and how it compares to who they are now. Other players may give suggestions but the concerned player is the one making the final call about their character._
 
 # Journey and Haven Pamphlet
 
