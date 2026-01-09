@@ -2,10 +2,23 @@
 
 Writing Guidelines
 
-- Mechanical terms should always use Pascal Case (e.g., Strong Hit, Weak Hit, Draw, Vitae, Radiance)
-- "Draw" is only used for the core Draw mechanic (Action card + Score vs Challenge cards)
-- Use "reveal" when revealing cards for other purposes like rolling on tables
-- Never use second person (you, your, yourself). Always use third person: "the character", "the player", "themselves", etc.
+- Use Pascal Case for all mechanical terms: Success, Partial Success, Draw, Vitae, Radiance, Cost, Harm, and so on.
+- Reserve the term Draw for the core resolution mechanic only. Use reveal when showing cards for tables, oracles, or random procedures.
+- Write in third person only. Use the character, the player, or themselves. Never use you, your, or yourself.
+- Use the Oxford comma in all lists.
+- Avoid contractions. Write is not, do not, and cannot instead of isn't, don't, and can't.
+- List card suits in this order: Clubs, Spades, Diamonds, Hearts.
+- Phrase Action outcomes as: The character succeeds/fails, [present participle]. For example: The character succeeds, gaining 1 Advantage.
+
+Action Format:
+
+1. Heading: Use level 4 heading (####) with the Action name.
+2. Trigger: Start with "When a character [does something], Draw+[Score]." Use "Draw+appropriate Score" if multiple Scores apply.
+3. Score Options (if appropriate Score): Use a bullet list starting with "If the character acts..." followed by "- With [method]: Draw+[Score]." End with "- If nothing else applies: Draw+Fortune."
+4. Situational Modifiers: Use a blockquote (>) with "If [favorable condition], take 1 Advantage. If [unfavorable condition], take 1 Disadvantage."
+5. Resolution Intro: Add "Then, resolve the Action as follows:" before the outcomes.
+6. Outcomes: Use a bullet list with "- **On a Success/Partial Success/Failure**: The character succeeds/fails, [present participle]..."
+7. Cost Table (optional): Add "On a Partial Success, reveal a card to determine the nature of the Cost:" followed by a suit-based bullet list in Clubs, Spades, Diamonds, Hearts order.
 
 -->
 
@@ -29,7 +42,7 @@ One standard deck of cards shared among the table, paper, and pencil. The game c
 
 Card values follow this scale: Aces count as 1, numbered cards use their normal value, and face cards are valued at 11 for Jacks, 12 for Queens, and 13 for Kings.
 
-After a card is used, it is put in a discard pile. When the deck runs empty and cards are needed, shuffle the discard pile to form a new deck.
+Place used cards in a discard pile. When the deck runs empty, or whenever revealing a Joker, shuffle the discard pile to form a new deck.
 
 ## Making a Character
 
@@ -63,7 +76,7 @@ Scores measure a character's capabilities and resources.
 
 ### 4. Records
 
-Records are used to keep track of important facts about a character, specific items, or other important notes. There is no limit to how many Records a character can have. Relevant Records can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
+Records are used to keep track of important facts about a character: specific items, bonds with non-player characters, pieces of intel, clues, lasting wounds, or other important notes. There is no limit to how many Records a character can have. Relevant Records can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
 
 During character creation, the player reveals a card for each category to determine their starting Records:
 
@@ -95,25 +108,65 @@ The Oracle is used to answer questions when the fiction is uncertain. It can be 
 | 50/50          | 2     |
 | Unlikely       | 1     |
 
-- When there are more red cards (Hearts or Diamonds) than black, the answer is **Yes**.
-- When there are more black cards (Spades or Clubs) than red, the answer is **No**.
-- When there is a tie, the answer is **Yes, but...** with a complication.
+- When there are more red cards (Diamonds or Hearts) than black, the answer is **Yes**.
+- When there are more black cards (Clubs or Spades) than red, the answer is **No**.
+- When there is a tie, the answer is **Yes, but...** the results are extreme or there is an unexpected twist.
+
+### Oracle Sparks
+
+If after consulting the Oracle a player is still uncertain how things should unfold or how the result should be interpreted, the player reveals 2 cards from the deck. Match the first card to the Theme Spark table and the second to the Impulse Spark table to generate a creative prompt.
+
+**Theme Spark** (reveal first card)
+
+| Card | ♣ Clubs   | ♠ Spades   | ♦ Diamonds | ♥ Hearts   |
+| ---- | --------- | ---------- | ---------- | ---------- |
+| A    | Path      | Death      | Secret     | Vow        |
+| 2    | Barrier   | Wound      | Truth      | Bond       |
+| 3    | Shelter   | Fear       | Knowledge  | Faith      |
+| 4    | Weapon    | Corruption | Power      | Hope       |
+| 5    | Tool      | Ruin       | Wealth     | Memory     |
+| 6    | Labor     | Decay      | Prize      | Spirit     |
+| 7    | Land      | Enemy      | Trade      | Innocence  |
+| 8    | Ruins     | Curse      | Debt       | Fellowship |
+| 9    | Passage   | Shadow     | Resource   | Family     |
+| 10   | Nature    | Blood      | Advantage  | Duty       |
+| J    | War       | Vengeance  | Destiny    | Sacrifice  |
+| Q    | Beast     | Doom       | Legacy     | Soul       |
+| K    | The Order | The Forest | The Roots  | The Light  |
+
+**Impulse Spark** (reveal second card)
+
+| Card | ♣ Clubs     | ♠ Spades | ♦ Diamonds | ♥ Hearts  |
+| ---- | ----------- | -------- | ---------- | --------- |
+| A    | Journey     | Hunt     | Acquire    | Swear     |
+| 2    | Search      | Strike   | Gather     | Confess   |
+| 3    | Explore     | Threaten | Trade      | Mourn     |
+| 4    | Breach      | Ambush   | Secure     | Aid       |
+| 5    | Fortify     | Pursue   | Hide       | Protect   |
+| 6    | Endure      | Wound    | Evade      | Serve     |
+| 7    | Escape      | Corrupt  | Deceive    | Follow    |
+| 8    | Uncover     | Betray   | Manipulate | Remember  |
+| 9    | Investigate | Consume  | Reveal     | Restore   |
+| 10   | Build       | Destroy  | Bargain    | Forgive   |
+| J    | Command     | Defy     | Steal      | Sacrifice |
+| Q    | Advance     | Avenge   | Transform  | Embrace   |
+| K    | Conquer     | Claim    | Surrender  | Bless     |
 
 ### The Draw
 
-All of the game's mechanics are called Actions: things that trigger when characters do certain things in the fiction. When an Action is triggered, it will outline that the player must make a Draw, usually in the form of "When this happens, Draw+Score." Follow the steps below to resolve the Action's outcome.
+All of the game's following mechanics are called Actions: things that trigger when characters do certain things in the fiction. When an Action is triggered, it will outline that the player must make a Draw, usually in the form of "When this happens, Draw+Score." Follow the steps below to resolve the Action's outcome.
 
 #### Making a Draw
 
 The player draws 1 Action card and adds the relevant Score to the card's numeral value. Then, 2 Challenge cards are drawn. The player compares their Action total against each Challenge card.
 
-If the player's Action total is higher than both Challenge cards, the Action resolves as a **Strong Hit**. The character succeeds at what they were trying to do and gains something extra.
+If the player's Action total is higher than both Challenge cards, the Action resolves as a **Success**. The character succeeds at what they were trying to do, and do so with a greater effect.
 
-If the player's Action total is higher than one Challenge card, the Action resolves as a **Weak Hit**. The character succeeds, but with a lesser effect or cost.
+If the player's Action total is higher than one Challenge card, the Action resolves as a **Partial Success**. The character succeeds, but with a lesser effect or at a cost.
 
-If the player's Action total is higher than neither Challenge card, the Action resolves as a **Miss**. The character fails or must make serious sacrifices to push forward.
+If the player's Action total is higher than neither Challenge card, the Action resolves as a **Failure**. The character fails at their action.
 
-Each Action will define how it resolves depending on whether it's a Strong Hit, Weak Hit, or Miss.
+Each Action provides prompts to help determine what that Cost might be.
 
 #### Advantage and Disadvantage
 
@@ -125,23 +178,28 @@ Disadvantage comes from adverse conditions, wounds, missing gear, or hostile cir
 
 #### Overcome an Obstacle
 
-When a character faces a challenge, obstacle, or dangerous situation, Draw+appropriate Score. If the character acts...
+When a character faces a challenge, Draw+appropriate Score. If the character acts...
 
 - With brute force, aggression, or raw power: Draw+Strength.
 - With speed, agility, precision, or stealth: Draw+Dexterity.
 - With cunning, perception, persuasion, or mental fortitude: Draw+Willpower.
 - With endurance, resilience, or toughness: Draw+Constitution.
+- If nothing else applies: Draw+Fortune.
 
-**On a Strong Hit**: The character overcomes the challenge and gains 1 Advantage they can use on a future Action.
-**On a Weak Hit**: The character overcomes the challenge but faces a cost or complication.
-**On a Miss**: The character fails, and the situation worsens.
+> If the character is well-prepared or conditions are favorable, take 1 Advantage. If the character is hindered or conditions are hostile, take 1 Disadvantage.
 
-On a Weak Hit or Miss, reveal a card to determine the nature of the consequence:
+Then, resolve the Action as follows:
 
-- **♠ Spades**: Danger. The character suffers harm or attracts a threat.
+- **On a Success**: The character succeeds, gaining 1 Advantage they can use on a future Action.
+- **On a Partial Success**: The character succeeds, but with lesser impact or facing a Cost.
+- **On a Failure**: The character fails.
+
+On a Partial Success, reveal a card to determine the nature of the Cost:
+
 - **♣ Clubs**: Time. The character loses precious time or an opportunity slips away.
+- **♠ Spades**: Danger. The character suffers Harm or attracts a threat.
+- **♦ Diamonds**: Loss. The character loses Supply or valuable gear is damaged.
 - **♥ Hearts**: Trust. A relationship is strained or an ally is put at risk.
-- **♦ Diamonds**: Cost. The character loses Supply or valuable gear is damaged.
 
 #### Secure an Advantage
 
@@ -151,17 +209,22 @@ When a character sets up an advantage for themselves or others, Draw+appropriate
 - With positioning, misdirection, or quick movement: Draw+Dexterity.
 - With patience or holding ground: Draw+Constitution.
 - With careful planning, insight, or deception: Draw+Willpower.
+- If nothing else applies: Draw+Fortune.
 
-**On a Strong Hit**: Create 2 Advantage that can be used on the next related Action.
-**On a Weak Hit**: Create 1 Advantage that can be used on the next related Action.
-**On a Miss**: The character is exposed. Take 1 Disadvantage on the next Action.
+> If the character has time to prepare or the situation is calm, take 1 Advantage. If the character is rushed or under pressure, take 1 Disadvantage.
 
-On a Weak Hit or Miss, reveal a card to determine the nature of the consequence:
+Then, resolve the Action as follows:
 
-- **♠ Spades**: Danger. The character suffers harm or attracts a threat.
+- **On a Success**: The character succeeds, creating 2 Advantage that can be used on a future Action that leverages that opportunity.
+- **On a Partial Success**: The character succeeds, creating 1 Advantage that can be used on a future Action that leverages that opportunity.
+- **On a Failure**: The character fails, taking 1 Disadvantage on their next Action.
+
+On a Partial Success, reveal a card to determine the nature of the Cost:
+
 - **♣ Clubs**: Time. The character loses precious time or an opportunity slips away.
+- **♠ Spades**: Danger. The character suffers Harm or attracts a threat.
+- **♦ Diamonds**: Loss. The character loses Supply or valuable gear is damaged.
 - **♥ Hearts**: Trust. A relationship is strained or an ally is put at risk.
-- **♦ Diamonds**: Cost. The character loses Supply or valuable gear is damaged.
 
 #### Compel
 
@@ -170,18 +233,41 @@ When a character attempts to persuade, threaten, or manipulate someone into doin
 - With threats, intimidation, or a show of force: Draw+Strength.
 - With persuasion, deception, or manipulation: Draw+Willpower.
 - By offering payment, bribes, or trade: Draw+Supply.
+- If nothing else applies: Draw+Fortune.
 
-**On a Strong Hit**: The target complies. They do what the character wants, or reveal information they were hiding.
-**On a Weak Hit**: The target complies, but demands something in return or will remember this slight.
-**On a Miss**: The target refuses and the relationship sours. They may become hostile or alert others.
+> If the target is friendly or owes the character, take 1 Advantage. If the target is hostile or has reason to resist, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, compelling the target to comply fully or reveal hidden information.
+- **On a Partial Success**: The character succeeds, but the target demands something in return or remembers this slight.
+- **On a Failure**: The character fails, souring the relationship. The target may become hostile or alert others.
+
+On a Partial Success, reveal a card to determine the nature of the Cost:
+
+- **♣ Clubs**: Debt. The target demands immediate payment or a favor.
+- **♠ Spades**: Threat. The target becomes a future enemy or alerts others.
+- **♦ Diamonds**: Strain. An ally disapproves of the character's methods.
+- **♥ Hearts**: Reputation. Word spreads about what the character did.
 
 #### Forge a Bond
 
 When a character spends meaningful time with someone, shares hardship, or offers aid without expectation, Draw+Willpower.
 
-**On a Strong Hit**: A bond is formed. Add them as a Record. The character can call on this bond as an Advantage in the future.
-**On a Weak Hit**: A connection is made, but trust must still be earned. The character can call on this bond as a one-time Advantage.
-**On a Miss**: The attempt falls flat. The other party remains distant or suspicious.
+> If the other party is receptive or shares common ground, take 1 Advantage. If the other party is wary or there is past friction, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, forming a bond. Add them as a Record, creating 2 Advantage that can be used on a future Action that leverages this relationship.
+- **On a Partial Success**: The character succeeds, making a connection, but trust must still be earned. Add them as a Record, creating 1 Advantage that can be used on a future Action that leverages this relationship.
+- **On a Failure**: The character fails, leaving the other party distant or suspicious.
+
+On a Partial Success, reveal a card to determine the nature of the Cost:
+
+- **♣ Clubs**: Obligation. The bond comes with an expectation or duty.
+- **♠ Spades**: Vulnerability. The character reveals something personal or dangerous.
+- **♦ Diamonds**: Debt. The character owes something before the bond is sealed.
+- **♥ Hearts**: Jealousy. Another relationship is strained by this new connection.
 
 #### Gather Intel
 
@@ -190,26 +276,27 @@ When a character investigates, searches for clues, or gathers information, Draw+
 - With careful searching, sneaking, or observation: Draw+Dexterity.
 - With deduction, interrogation, or reading people: Draw+Willpower.
 - By paying for information or bribing sources: Draw+Supply.
+- If nothing else applies: Draw+Fortune.
 
-**On a Strong Hit**: The character learns something valuable and gains 1 Advantage on their next related Action.
-**On a Weak Hit**: The character learns something useful, but incomplete.
-**On a Miss**: The character finds nothing, or what they find puts them in danger.
+> If the area is undisturbed or the source is cooperative, take 1 Advantage. If the trail is cold or the source is guarded, take 1 Disadvantage.
 
-#### Read the Situation
+Then, resolve the Action as follows:
 
-When a character takes a moment to assess the situation and trust their instincts, Draw+Fortune.
-
-**On a Strong Hit**: The character gains clarity. Take 2 Advantage on the next Action.
-**On a Weak Hit**: The character gets a read. Take 1 Advantage on the next Action.
-**On a Miss**: The character misreads the situation. Lose 1 Fortune.
+- **On a Success**: The character succeeds, learning something valuable. Add it as a Record, creating 2 Advantage that can be used on a future Action that leverages this information.
+- **On a Partial Success**: The character succeeds, learning something useful but incomplete. Add it as a Record, creating 1 Advantage that can be used on a future Action that leverages this information.
+- **On a Failure**: The character fails, finding nothing or stumbling into danger.
 
 #### Forage
 
 When a character searches for food, water, or useful materials in the wild, Draw+Fortune.
 
-**On a Strong Hit**: The character finds what they need and more. Restore 2 Supply.
-**On a Weak Hit**: The character finds enough to get by. Restore 1 Supply.
-**On a Miss**: The character finds nothing, or attracts unwanted attention.
+> If the area is plentiful (near fresh water, fertile land, or abundant game), take 1 Advantage. If the area is barren or corrupted, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, finding what they need and more. Restore 2 Supply.
+- **On a Partial Success**: The character succeeds, finding enough to get by. Restore 1 Supply.
+- **On a Failure**: The character fails, finding nothing or attracting unwanted attention.
 
 #### Spend Supply
 
@@ -217,73 +304,103 @@ When a character spends resources to acquire goods or services, Draw+Supply.
 
 This can be used to obtain weapons, armor, gear, skills training, services, hirelings, or other valuable assets.
 
-**On a Strong Hit**: The character gets what they want and more. Add it as a Record and restore 1 Supply (a good deal).
-**On a Weak Hit**: The character gets what they want. Add it as a Record.
-**On a Miss**: The goods are unavailable, inferior, or come with strings attached. Lose 1 Supply anyway.
+> If the goods are common or the merchant is friendly, take 1 Advantage. If the goods are rare or the merchant is suspicious, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, getting what they want and more. Add it as a Record and restore 1 Fortune.
+- **On a Partial Success**: The character succeeds, getting what they want. Add it as a Record.
+- **On a Failure**: The character fails, finding goods unavailable, inferior, or with strings attached. Lose 1 Fortune.
 
 #### Treat Wounds
 
 When a character tends to the injuries of others, Draw+Dexterity. When a character tends to their own injuries, Draw+Constitution.
 
-**On a Strong Hit**: Restore 2 Vitae to the wounded character.
-**On a Weak Hit**: Restore 1 Vitae to the wounded character.
-**On a Miss**: The treatment fails. Lose 1 Supply.
+> If the character has proper supplies or shelter, take 1 Advantage. If the character lacks supplies or is exposed, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, restoring 2 Vitae to the wounded.
+- **On a Partial Success**: The character succeeds, restoring 1 Vitae to the wounded.
+- **On a Failure**: The character fails, wasting supplies. Lose 1 Supply or 1 Fortune.
 
 #### Enter Combat
 
 When a character initiates combat or reacts to an ambush, Draw+Dexterity.
 
-**On a Strong Hit**: The character has the initiative. Take 1 Advantage on the first Inflict Harm Action and act before the enemy.
-**On a Weak Hit**: Combat begins. No advantage to either side.
-**On a Miss**: The enemy has the drop on the character. Take 1 Disadvantage on the first Action.
+> If the character is prepared or has the element of surprise, take 1 Advantage. If the character is caught off guard or outnumbered, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, seizing initiative. Take 1 Advantage on the first Inflict Harm Action and act before the enemy.
+- **On a Partial Success**: The character succeeds, engaging on equal footing. No Advantage to either side.
+- **On a Failure**: The character fails, losing initiative. Take 1 Disadvantage on the first Action.
+
+There is no turn order or rounds. This Action establishes who acts first, then the fiction flows back and forth between the characters and their enemies.
 
 #### Inflict Harm
 
-When a character strikes at an enemy or engages a threat in combat, Draw+Strength for melee attacks, Draw+Dexterity for ranged attacks, or Draw+Willpower for arcane attacks.
+When a character strikes at an enemy or engages a threat in combat, Draw+appropriate Score. If the character attacks...
 
-There is no turn order or rounds. The fiction dictates who acts and what is possible. A blade cannot harm what it cannot reach. An armored creature will not fall to desperate slashing.
+- With a melee weapon or bare hands: Draw+Strength.
+- With a ranged weapon or thrown object: Draw+Dexterity.
+- With arcane power or a Gift: Draw+Willpower.
 
-**On a Strong Hit**: The character strikes true and avoids retaliation.
-**On a Weak Hit**: The character lands the strike but is harmed as a result.
-**On a Miss**: The character misses, and is harmed as a result.
+The fiction dictates what is possible during combat. A blade cannot harm what it cannot reach. An armored creature will not fall to desperate slashing.
+
+> If the character has the upper hand or the enemy is exposed, take 1 Advantage. If the enemy is armored, fortified, or has the upper hand, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, striking true and avoiding retaliation.
+- **On a Partial Success**: The character succeeds, landing the strike but suffering Harm in return.
+- **On a Failure**: The character fails, missing and suffering Harm in return.
 
 Minor threats fall in one or two decisive blows. Dangerous foes require multiple successes: each one is ground gained, a wound opened, an advantage seized.
 
 #### Endure Harm
 
-When a character suffers harm from a threat, Draw+Constitution.
+When a character suffers Harm from a threat, Draw+Constitution.
 
-If the threat is serious, take 1 Disadvantage. If the threat is dire, take 2 Disadvantage.
+> If the threat is serious, take 1 Disadvantage. If the threat is dire, take 2 Disadvantage.
 
-**On a Strong Hit**: The character endures. Lose no Vitae.
-**On a Weak Hit**: The character is shaken. Lose 1 Vitae.
-**On a Miss**: The character is wounded. Lose 2 Vitae.
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, enduring the blow. Lose no Vitae.
+- **On a Partial Success**: The character succeeds, shrugging off most of the blow. Lose 1 Vitae.
+- **On a Failure**: The character fails, taking a serious wound. Lose 2 Vitae.
 
 #### Resist Death
 
 When a character's Vitae reaches 0, the character is on the brink of death. Draw+Fortune.
 
-**On a Strong Hit**: The character clings to life. They stabilize at 1 Vitae and remain conscious.
-**On a Weak Hit**: The character survives, but barely. They stabilize at 1 Vitae but fall unconscious or suffer a lasting wound (add it as a Record).
-**On a Miss**: Death claims the character.
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, clinging to life. Stabilize at 1 Vitae and remain conscious.
+- **On a Partial Success**: The character succeeds, barely surviving. Stabilize at 1 Vitae but fall unconscious or suffer a permanent wound as a Record.
+- **On a Failure**: The character fails. Death claims them.
 
 #### Resist the Forest
 
 When a character's Radiance reaches 0, the pull of the forest threatens to consume them. Draw+Fortune.
 
-**On a Strong Hit**: The character resists the call. They stabilize at 1 Radiance and maintain their will.
-**On a Weak Hit**: The character holds on, but the roots have taken hold. They stabilize at 1 Radiance but gain a permanent mark of corruption (add it as a Record).
-**On a Miss**: The forest claims the character. They are removed from play and become a threat to those they once called allies.
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, resisting the call. Stabilize at 1 Radiance and maintain their will.
+- **On a Partial Success**: The character succeeds, holding on as the roots take hold. Stabilize at 1 Radiance but gain a permanent mark of corruption as a Record.
+- **On a Failure**: The character fails. The forest claims them, removing them from play as they become a threat to former allies.
 
 #### Rest
 
 When a character rests in a safe place or shelter, Draw+Constitution.
 
-If the character takes a Long Rest (hours of shelter and bandages), take 1 Advantage. If the character takes a Full Rest (days in true sanctuary), take 2 Advantage.
+> If the character takes a Long Rest (hours of shelter and bandages), take 1 Advantage. If the character takes a Full Rest (days in true sanctuary), take 2 Advantage.
 
-**On a Strong Hit**: Restore 3 Vitae.
-**On a Weak Hit**: Restore 2 Vitae.
-**On a Miss**: Restore 1 Vitae.
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, resting fully. Restore 3 Vitae.
+- **On a Partial Success**: The character succeeds, resting adequately. Restore 2 Vitae.
+- **On a Failure**: The character fails, resting poorly. Restore 1 Vitae.
 
 After a character has rested, shuffle the discard pile back into the deck.
 
@@ -291,27 +408,35 @@ After a character has rested, shuffle the discard pile back into the deck.
 
 When a character makes camp in the wilds, Draw+Supply.
 
-**On a Strong Hit**: The camp is secure. Restore 3 Vitae and the night passes without incident.
-**On a Weak Hit**: The camp holds, but something stirs. Restore 2 Vitae, but face a complication or lose 1 Supply.
-**On a Miss**: The camp is compromised. Restore 1 Vitae, and danger approaches.
+> If the area is sheltered or defensible, take 1 Advantage. If the area is exposed or deep in corrupted territory, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, securing the camp. Restore 3 Vitae and the night passes without incident.
+- **On a Partial Success**: The character succeeds, but something stirs. Restore 2 Vitae, but face a Cost or lose 1 Supply.
+- **On a Failure**: The character fails, compromising the camp. Restore 1 Vitae, and danger approaches.
 
 #### Purify
 
 When a character seeks to cleanse their soul and resist the forest's claim, Draw+Willpower.
 
-If the character is at a place of holiness (a shrine, altar, sacred grove, or sanctuary blessed by the Church), take 1 Advantage. If the character performs a rite of purification (confessing sins at a relic, holding vigil while fasting, praying over running water, or pouring blood into salt), take 1 Advantage.
+> If the character is at a place of holiness (a shrine, altar, sacred grove, or sanctuary blessed by the Church), take 1 Advantage. If the character performs a rite of purification (confessing sins at a relic, holding vigil while fasting, praying over running water, or pouring blood into salt), take 1 Advantage.
 
-**On a Strong Hit**: Restore 3 Radiance.
-**On a Weak Hit**: Restore 2 Radiance.
-**On a Miss**: Restore 1 Radiance.
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, cleansing deeply. Restore 3 Radiance.
+- **On a Partial Success**: The character succeeds, cleansing partially. Restore 2 Radiance.
+- **On a Failure**: The character fails, barely touching the corruption. Restore 1 Radiance.
 
 #### Invoke Gift
 
 When a character calls upon their Gift to overcome an obstacle or solve a problem, Draw+Willpower.
 
-**On a Strong Hit**: The character resists the call of the roots. Radiance stays as it is.
-**On a Weak Hit**: The character feels the call of the roots. Lose 1 Radiance.
-**On a Miss**: The character is overwhelmed by the call of the roots. Lose 2 Radiance.
+Then, resolve the Action as follows:
+
+- **On a Success**: The character succeeds, resisting the call of the roots. Radiance stays as it is.
+- **On a Partial Success**: The character succeeds, feeling the call of the roots. Lose 1 Radiance.
+- **On a Failure**: The character fails, overwhelmed by the call of the roots. Lose 2 Radiance.
 
 If a character's Radiance ever reaches 0, the forest claims the character. They are removed from play and become a threat to those they once called allies.
 
@@ -367,10 +492,10 @@ To generate a Vow, draw one card from each table and combine the results. Or cho
 
 | Suit       | Complication                          |
 | ---------- | ------------------------------------- |
-| ♠ Spades   | Someone here shares history with them |
 | ♣ Clubs    | Others hunt the same quarry           |
-| ♥ Hearts   | The truth is worse than told          |
+| ♠ Spades   | Someone here shares history with them |
 | ♦ Diamonds | The path back has closed              |
+| ♥ Hearts   | The truth is worse than told          |
 
 **The Location** (draw one card)
 

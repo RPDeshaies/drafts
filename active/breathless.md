@@ -3,8 +3,9 @@
 Writing Guidelines
 
 - Mechanical terms should always use Pascal Case (e.g., Check, Skill, Item, Position, Grit, Harm, Journey Die)
-- Never use second person (you, your, yourself). Always use third person: "the character", "the player", "themselves", etc.
-
+- Write in third person only. Use the character, the player, or themselves. Never use you, your, or yourself. Exception: flavor text and Memory prompts may use second person.
+- Use the Oxford comma in all lists.
+- Avoid contractions. Write is not, do not, and cannot instead of isn't, don't, and can't.
 -->
 
 # Breathless
@@ -172,9 +173,9 @@ When starting the game, we recommend beginning on a Journey and thinking about w
 
 **We lost everything**: Something happened where the characters were living. A rival faction may have taken over, or a swarm of Breathless could have swept through. They lost what they had and now need to move, figuring things out along the way.
 
-**I know of a place**: They’ve heard rumors of somewhere with law and order, of people who say they are safe, or that there is a vaccine in the work. Maybe another country is untouched and reaching the sea is the only way out. Whether the rumors are true is irrelevant. The objective, real or not, gives hope. And hope is enough to keep going.
+**I know of a place**: They have heard rumors of somewhere with law and order, of people who say they are safe, or that there is a vaccine in the work. Maybe another country is untouched and reaching the sea is the only way out. Whether the rumors are true is irrelevant. The objective, real or not, gives hope. And hope is enough to keep going.
 
-**We can't stay here long**: Staying in one place too long invites theft, raids, and most certainly death. As survivors accumulate wealth or security, others will want to claim it for themselves. The nomadic life keeps people alert. They move, find shelters, scavenge, and move again.
+**We cannot stay here long**: Staying in one place too long invites theft, raids, and most certainly death. As survivors accumulate wealth or security, others will want to claim it for themselves. The nomadic life keeps people alert. They move, find shelters, scavenge, and move again.
 
 Before taking on a Journey, the players use a map and decide where they are going and which points they will stop at. Every point on the map is connected by a path.
 
@@ -202,11 +203,11 @@ Survival ends when the group has escaped the threat, cleared the danger, or reac
 
 In a Haven, the survivors can finally stop the endless grind of the road and start rebuilding connections with people, politics, even scraps of civilization. Keeping a Haven safe is never easy; one spark is enough to see the whole effort collapse. As such, survivors often need to leave the safe walls to hunt for supplies, bargain with nearby factions, and make sure the dead stay far from home.
 
-A Haven can take many forms: an abandoned building, a fortified complex, a cluster of improvised shelters, or even a walled city. They usually offer some kind of advantage, otherwise it wouldn’t be worth defending. Access to clean water, a steady supply of food, or natural barriers are common reasons to settle.
+A Haven can take many forms: an abandoned building, a fortified complex, a cluster of improvised shelters, or even a walled city. They usually offer some kind of advantage, otherwise it would not be worth defending. Access to clean water, a steady supply of food, or natural barriers are common reasons to settle.
 
 While in a Haven, players can roleplay, barter, trade, and pursue personal goals. They can question the GM about rumors, investigate leads, and interact with NPCs.
 
-If the group isn’t starting the game on a Journey, beginning in a Haven is also a good choice.
+If the group is not starting the game on a Journey, beginning in a Haven is also a good choice.
 
 ### Haven Dice
 
@@ -307,7 +308,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 - **Memories**:
   - GARAGE: Who taught you to listen to an engine?
   - DEBT: What did the bank threaten to take from you?
-  - TRUNK: Whose car revealed a secret you wished you hadn't found?
+  - TRUNK: Whose car revealed a secret you wished you had not found?
   - FAMILY: What did your family sacrifice so you could keep the shop?
   - LAST BREATH: What happened that made you realize the gas stations had run dry?
 
@@ -320,7 +321,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
   - CONFESSION: Whose secret still haunts you?
   - PAST: How low did you fall before you turned towards priesthood?
   - DOUBT: Who did you fail to save with prayer alone?
-  - LAST BREATH: What happened that made you realize you'd have to turn away those who begged for sanctuary?
+  - LAST BREATH: What happened that made you realize you would have to turn away those who begged for sanctuary?
 
 ### 6. Farmer
 
@@ -339,7 +340,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 - **Items**: Meds d10, Gas mask d8.
 - **Memories**:
   - LAB: What discovery made you feel like it was all worth it?
-  - DATA: What result did you see that you wished you hadn't?
+  - DATA: What result did you see that you wished you had not?
   - ETHICS: What line did you cross for funding or progress?
   - COLLEAGUE: Who warned you to stop before it was too late?
   - LAST BREATH: What happened that made you realize the outbreak had proved the models right?
@@ -353,7 +354,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
   - RESCUE: Who did you carry out of the backcountry?
   - POACHERS: What did you find that was never meant to be found?
   - RADIO: Whose voice kept you company from the other tower?
-  - LAST BREATH: What happened that made you realize even the forests weren't safe?
+  - LAST BREATH: What happened that made you realize even the forests were not safe?
 
 ### 9. Veteran
 
@@ -362,7 +363,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 - **Memories**:
   - DEPLOYMENT: What country did you leave a piece of yourself in?
   - SQUAD: Whose name do you still whisper?
-  - RETURN: Who didn't recognize you when you came back?
+  - RETURN: Who did not recognize you when you came back?
   - NIGHT: What sound still wakes you?
   - LAST BREATH: What happened that made you realize war had come home for good?
 
@@ -374,7 +375,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
   - CRIME: What did they say you did?
   - CELL: Who had your back on the inside?
   - YARD: What favor do you still owe from the inside?
-  - RELEASE: Who wasn't there when you walked out?
+  - RELEASE: Who was not there when you walked out?
   - LAST BREATH: What happened that made you realize your second chance may not have been worth it?
 
 ### 11. Teacher
@@ -386,7 +387,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
   - STUDENT: Whose spark did you help ignite?
   - PARENT: What accusation did you never shake?
   - BREAK: What did you tell yourself to make it through another year?
-  - LAST BREATH: What happened that made you realize you couldn't protect them anymore?
+  - LAST BREATH: What happened that made you realize you could not protect them anymore?
 
 ### 12. DJ
 
@@ -397,4 +398,4 @@ To create a character, first pick an Occupation from the following list. Each Oc
   - BOOTH: Who got you your first gig?
   - SUNRISE: What after-party went too far?
   - SILENCE: What were you drowning out with the bass?
-  - LAST BREATH: What happened that made you realize the warehouse wasn't a refuge anymore?
+  - LAST BREATH: What happened that made you realize the warehouse was not a refuge anymore?
