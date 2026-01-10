@@ -2,7 +2,7 @@
 
 Writing Guidelines
 
-- Use Pascal Case for all mechanical terms: Great Success, Bare Success, Draw, Vitae, Radiance, Cost, and so on.
+- Use Pascal Case for all mechanical terms: Great Success, Bare Success, Draw, Vitae, Radiance, Complication, and so on.
 - When referencing an Action in text, use backticks like `Action Name`.
 - Reserve the term Draw for the core resolution mechanic only. Use reveal when showing cards for tables, oracles, or random procedures.
 - Write in third person only. Use the character, the player, or themselves. Never use you, your, or yourself.
@@ -21,10 +21,10 @@ Action Format:
 4. Situational Modifiers: Use a blockquote (>) with "If [favorable condition], take 1 Advantage. If [unfavorable condition], take 1 Disadvantage."
 5. Resolution Intro: Add "Then, resolve the Action as follows:" before the outcomes.
 6. Outcomes: Use a bullet list with the following format:
-   - Great Success: "On a Great Success, the character [narrative flavor], [mechanical effect]."
-   - Bare Success: "On a Bare Success, the character [narrative flavor], [mechanical effect]."
-   - Failure: "On a Failure, the character [narrative flavor], and there is a Cost."
-7. Cost Table (optional): Add "On a Failure, the player may reveal a card to help determine the nature of the Cost:" followed by a suit-based bullet list in Clubs, Spades, Diamonds, Hearts order.
+   - Radiant: "When the outcome is Radiant, the character [narrative flavor], [mechanical effect]."
+   - Bright: "When the outcome is Bright, the character [narrative flavor], [mechanical effect]."
+   - Dire: "When the outcome is Dire, the character [narrative flavor], and there is a Complication."
+7. Complication Table (optional): Add "When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:" followed by a suit-based bullet list in Clubs, Spades, Diamonds, Hearts order.
 
 -->
 
@@ -38,7 +38,7 @@ The Derweald of Lightwall is a living rot: ancient, patient, and eternally hungr
 
 But when the claiming comes swift as the wind, a rare few rise again with their minds intact, cursed with gifts they never asked for and the forest's hooks buried deep in their thoughts. These creatures are power, hunger, and forever. They are called Thornmouths.
 
-The Order of the Duskwatch hunts Thornmouths without mercy and searches for those with resolve enough to fight the pull of the roots through Radiance and faith to welcome into their ranks as Wardens. The Order's priests carve root scars into their forearms with consecrated steel and pack the wounds with blessed salt until the flesh rises into knotted patterns. Body and soul both becoming a battleground to help fight the pull and resist this corrupted power from taking over.
+The Order of the Duskwatch hunts Thornmouths without mercy and searches for those with resolve enough to fight the pull of the roots through Faith to welcome into their ranks as Wardens. The Order's priests carve root scars into their forearms with consecrated steel and pack the wounds with blessed salt until the flesh rises into knotted patterns. Body and soul both becoming a battleground to help fight the pull and resist this corrupted power from taking over.
 
 Armed with blessed blades, whispered prayers, and salted steel, the Wardens are sent back into the thorns to fulfill cleanse evil, or die trying.
 
@@ -93,7 +93,7 @@ Scores measure a character's capabilities and resources.
 **Reserve Scores** fluctuate during play. All start at 5 during character creation, except Fortune which starts at 3:
 
 - **Vitae (5)**: Physical and mental health.
-- **Radiance (5)**: Inner light and resistance to corruption.
+- **Faith (5)**: Inner light and resistance to corruption.
 - **Supply (5)**: Provisions, ammunition, expendable gear, and purchasing power for everyday needs.
 - **Fortune (3)**: Luck and fate's favor.
 
@@ -172,13 +172,13 @@ All of the game's following mechanics are called Actions: things that trigger wh
 
 The player draws 1 Action card and adds the relevant Score to the card's numeral value. Then, 2 Challenge cards are drawn. The player compares their Action total against each Challenge card.
 
-If the player's Action total is higher than both Challenge cards, the Action resolves as a **Great Success**. The character succeeds at what they were trying to do, and does so with greater effect.
+If the player's Action total is higher than both Challenge cards, the outcome is **Radiant**. When an Action is used to determine the outcome of a character's efforts, they succeed with greater effect. When an Action is for determining something about the world, the character finds themselves in a great position.
 
-If the player's Action total is higher than one Challenge card, the Action resolves as a **Bare Success**. The character succeeds, getting what they want.
+If the player's Action total is higher than one Challenge card, the outcome is **Bright**. When an Action is used to determine the outcome of a character's efforts, they succeed at what they were trying to do. When an Action is for determining something about the world, the character finds themselves in a good position.
 
-If the player's Action total is higher than neither Challenge card, the Action resolves as a **Failure**. The character fails, and there is a Cost.
+If the player's Action total is higher than neither Challenge card, the outcome is **Dire**. When an Action is used to determine the outcome of a character's efforts, they fail and there is a Complication. When an Action is for determining something about the world, the character finds themselves in a bad position.
 
-Each Action provides prompts to help determine what that Cost might be.
+Whenever an Action triggers a Complication, it shall always provide prompts to help determine its nature.
 
 #### Using Advantage and Disadvantage
 
@@ -190,8 +190,8 @@ Disadvantage comes from adverse conditions, wounds, missing gear, or hostile cir
 
 Fortune can be spent or earned by pushing outcomes beyond what fate intended.
 
-- **Push Through**: When a character suffers a Failure, the player may push the outcome to a Bare Success instead, losing 1 Fortune in the process.
-- **Accept Hardship**: When a character achieves a Great Success, the player may choose to accept a Bare Success instead, restoring 1 Fortune in the process.
+- **Push Through**: When the outcome is Dire, the player may push it to Bright instead, losing 1 Fortune in the process.
+- **Accept Hardship**: When the outcome is Radiant, the player may choose to accept a Bright outcome instead, restoring 1 Fortune in the process.
 
 Fortune cannot go lower than 0 or higher than 5. A player cannot spend Fortune they do not have.
 
@@ -213,11 +213,11 @@ When a character faces a challenge, Draw+appropriate Score. If the character act
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character greatly succeeds.
-- **On a Bare Success**: The character succeeds.
-- **On a Failure**: The character fails, and there is a Cost.
+- **When the outcome is Radiant**: The character greatly succeeds.
+- **When the outcome is Bright**: The character succeeds.
+- **When the outcome is Dire**: The character fails, and there is a Complication.
 
-On a Failure, the player may reveal a card to help determine the nature of the Cost:
+When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
 
 - **♣ Clubs**: Time. The character loses precious time or an opportunity slips away.
 - **♠ Spades**: Danger. The character suffers harm or attracts a threat.
@@ -238,11 +238,11 @@ When a character tries to avoid a consequence from a hazard, hostile opposition,
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character avoids the consequence and gains an opportunity, taking 1 Advantage for their next Action when applicable.
-- **On a Bare Success**: The character avoids the consequence.
-- **On a Failure**: The character suffers the full consequence. When suffering harm, lose Vitae. When fighting corruption, lose Radiance. If nothing else applies, the consequence is rooted in the fiction.
+- **When the outcome is Radiant**: The character avoids the consequence and gains an opportunity, taking 1 Advantage for their next Action when applicable.
+- **When the outcome is Bright**: The character avoids the consequence.
+- **When the outcome is Dire**: The character suffers the full consequence. When suffering harm, lose Vitae. When fighting corruption, lose Faith. If nothing else applies, the consequence is rooted in the fiction.
 
-The amount of Vitae or Radiance lost depends on the severity of the threat: minor threats deal 1, serious threats deal 2, and dire threats deal 3 or more.
+The amount of Vitae or Faith lost depends on the severity of the threat: minor threats deal 1, serious threats deal 2, and dire threats deal 3 or more.
 
 If a character's Vitae ever reaches 0, they must immediately use the `Resist Death` Action.
 
@@ -261,11 +261,11 @@ When a character prepares for what lies ahead, whether through positioning, inve
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character secures the opportunity, creating 2 Advantage that can be used on a future Action. If relevant, add a bond, clue, or piece of intel as a Record.
-- **On a Bare Success**: The character secures the opportunity, creating 1 Advantage that can be used on a future Action. If relevant, add a bond, clue, or piece of intel as a Record.
-- **On a Failure**: The character fails to secure the opportunity, and there is a Cost.
+- **When the outcome is Radiant**: The character secures the opportunity, creating 2 Advantage that can be used on a future Action. If relevant, add a bond, clue, or piece of intel as a Record.
+- **When the outcome is Bright**: The character secures the opportunity, creating 1 Advantage that can be used on a future Action. If relevant, add a bond, clue, or piece of intel as a Record.
+- **When the outcome is Dire**: The character fails to secure the opportunity, and there is a Complication.
 
-On a Failure, the player may reveal a card to help determine the nature of the Cost:
+When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
 
 - **♣ Clubs**: Time. The opportunity slips away, or an obligation is now owed.
 - **♠ Spades**: Danger. The character attracts a threat or reveals something personal.
@@ -280,9 +280,9 @@ When a character initiates combat or reacts to an ambush, Draw+Dexterity.
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character seizes initiative, taking 1 Advantage for their next Action.
-- **On a Bare Success**: The character engages on equal footing.
-- **On a Failure**: The character loses initiative, taking 1 Disadvantage on their next Action.
+- **When the outcome is Radiant**: The character seizes initiative, taking 1 Advantage for their next Action.
+- **When the outcome is Bright**: The character engages on equal footing.
+- **When the outcome is Dire**: The character loses initiative, taking 1 Disadvantage on their next Action.
 
 There is no turn order or rounds. This Action establishes who acts first, then the fiction flows back and forth between the characters and their enemies. Players usually act using `Inflict Harm`, `Overcome a Challenge`, or `Secure an Opportunity`. When enemies strike back, the GM prompts players to react using `Avoid a Consequence`.
 
@@ -298,11 +298,11 @@ When a character strikes at an enemy or engages a threat in combat, Draw+appropr
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character strikes true and gains an opportunity, taking 1 Advantage for their next Action.
-- **On a Bare Success**: The character lands the strike.
-- **On a Failure**: The character misses, and there is a Cost.
+- **When the outcome is Radiant**: The character strikes true and gains an opportunity, taking 1 Advantage for their next Action.
+- **When the outcome is Bright**: The character lands the strike.
+- **When the outcome is Dire**: The character misses, and there is a Complication.
 
-On a Failure, the player may reveal a card to help determine the nature of the Cost:
+When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
 
 - **♣ Clubs**: Position. The enemy gains the upper hand or forces the character back.
 - **♠ Spades**: Harm. The character suffers harm in retaliation. Lose 1 Vitae.
@@ -317,13 +317,13 @@ When a character calls upon their Gift to overcome an obstacle or solve a proble
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character invokes their Gift, keeping their Radiance.
-- **On a Bare Success**: The character invokes their Gift, losing 1 Radiance.
-- **On a Failure**: The character invokes their Gift but looses control, losing 2 Radiance.
+- **When the outcome is Radiant**: The character invokes their Gift, keeping their Faith.
+- **When the outcome is Bright**: The character invokes their Gift, losing 1 Faith.
+- **When the outcome is Dire**: The character invokes their Gift but looses control, losing 2 Faith.
 
 The outcome of invoking a Gift is rooted in the fiction. The character describes how they channel the forest's power, and the effect manifests according to the Gift's nature and the situation at hand.
 
-If a character's Radiance ever reaches 0, they must immediately use the `Resist the Forest` Action.
+If a character's Faith ever reaches 0, they must immediately use the `Resist the Forest` Action.
 
 #### Treat Wounds
 
@@ -336,11 +336,11 @@ When a character tends to injuries or wounds, Draw+appropriate Score. If the cha
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character treats the wounds effectively, restoring 2 Vitae.
-- **On a Bare Success**: The character treats the wounds adequately, restoring 1 Vitae.
-- **On a Failure**: The character fails to treat the wounds, and there is a Cost.
+- **When the outcome is Radiant**: The character treats the wounds effectively, restoring 2 Vitae.
+- **When the outcome is Bright**: The character treats the wounds adequately, restoring 1 Vitae.
+- **When the outcome is Dire**: The character fails to treat the wounds, and there is a Complication.
 
-On a Failure, the player may reveal a card to help determine the nature of the Cost:
+When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
 
 - **♣ Clubs**: Time. The treatment takes far longer than expected.
 - **♠ Spades**: Complication. The wound worsens or becomes infected.
@@ -358,16 +358,16 @@ When a character spends 6+ hours resting, Draw+appropriate Score. If the charact
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character rests fully, restoring 3 Vitae.
-- **On a Bare Success**: The character rests adequately, restoring 2 Vitae.
-- **On a Failure**: The character rests poorly, restoring only 1 Vitae, and there is a Cost.
+- **When the outcome is Radiant**: The character rests fully, restoring 3 Vitae.
+- **When the outcome is Bright**: The character rests adequately, restoring 2 Vitae.
+- **When the outcome is Dire**: The character rests poorly, restoring only 1 Vitae, and there is a Complication.
 
-On a Failure, the player may reveal a card to help determine the nature of the Cost:
+When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
 
 - **♣ Clubs**: Delay. The rest takes longer than expected or an opportunity passes.
 - **♠ Spades**: Disturbance. Something stirs in the night, danger approaches.
 - **♦ Diamonds**: Consumption. Supplies are depleted or gear is damaged. Lose 1 Supply.
-- **♥ Hearts**: Unease. Nightmares or troubled thoughts strain the mind. Lose 1 Radiance.
+- **♥ Hearts**: Unease. Nightmares or troubled thoughts strain the mind. Lose 1 Faith.
 
 After a character has rested, shuffle the discard pile back into the deck.
 
@@ -384,11 +384,11 @@ When a character seeks to restock provisions, ammunition, or gear, Draw+appropri
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character acquires what they need and more, restoring 2 Supply.
-- **On a Bare Success**: The character acquires enough to get by, restoring 1 Supply.
-- **On a Failure**: The character acquires nothing, and there is a Cost.
+- **When the outcome is Radiant**: The character acquires what they need and more, restoring 2 Supply.
+- **When the outcome is Bright**: The character acquires enough to get by, restoring 1 Supply.
+- **When the outcome is Dire**: The character acquires nothing, and there is a Complication.
 
-On a Failure, the player may reveal a card to help determine the nature of the Cost:
+When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
 
 - **♣ Clubs**: Time. The search or negotiation takes far longer than expected.
 - **♠ Spades**: Danger. The character attracts predators, thieves, or unwanted attention.
@@ -403,9 +403,9 @@ When a character seeks to cleanse their soul and resist the forest's claim, Draw
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character is imbued with the One Light, restoring 3 Radiance.
-- **On a Bare Success**: The character feels the touch of the One Light, restoring 2 Radiance.
-- **On a Failure**: The character is only lightly touched by the One Light, restoring 1 Radiance.
+- **When the outcome is Radiant**: The character is imbued with the One Light, restoring 3 Faith.
+- **When the outcome is Bright**: The character feels the touch of the One Light, restoring 2 Faith.
+- **When the outcome is Dire**: The character is only lightly touched by the One Light, restoring 1 Faith.
 
 #### Resist Death
 
@@ -413,21 +413,21 @@ When a character's Vitae reaches 0, the character is on the brink of death. Draw
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character clings to life, regaining 1 Vitae but remaining conscious.
-- **On a Bare Success**: The character barely survives, stabilizing at 1 Vitae but falling unconscious. Add a permanent wound as a Record.
-- **On a Failure**: The character succumbs to their wounds.
+- **When the outcome is Radiant**: The character clings to life, regaining 1 Vitae but remaining conscious.
+- **When the outcome is Bright**: The character barely survives, stabilizing at 1 Vitae but falling unconscious. Add a permanent wound as a Record.
+- **When the outcome is Dire**: The character succumbs to their wounds.
 
 If a character dies, the player must create a new character and introduce them into the fiction as soon as possible.
 
 #### Resist the Forest
 
-When a character's Radiance reaches 0, the pull of the forest threatens to consume them. Draw+Fortune.
+When a character's Faith reaches 0, the pull of the forest threatens to consume them. Draw+Fortune.
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character resists the call, regaining 1 Radiance.
-- **On a Bare Success**: The character holds on, stabilizing at 1 Radiance but feeling the roots take hold. Add a permanent mark of corruption as a Record.
-- **On a Failure**: The character succumbs to the forest.
+- **When the outcome is Radiant**: The character resists the call, regaining 1 Faith.
+- **When the outcome is Bright**: The character holds on, stabilizing at 1 Faith but feeling the roots take hold. Add a permanent mark of corruption as a Record.
+- **When the outcome is Dire**: The character succumbs to the forest.
 
 If a character succumbs to the forest, the player must create a new character and introduce them into the fiction as soon as possible.
 
@@ -436,16 +436,16 @@ If a character succumbs to the forest, the player must create a new character an
 When a character completes a Hunt and slays corruption that plages the land, they Advance. Draw+1 for each of the following that is true:
 
 - The corruption was ancient or powerful.
-- The Hunt brought the character to the brink of death or claimed their Radiance.
+- The Hunt brought the character to the brink of death or claimed their Faith.
 - The source of corruption was hidden and required investigation to uncover.
 - The truth discovered was darker than expected.
 - The character made a difficult choice or sacrifice to see the Hunt through.
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character grows stronger through struggle. Increase one Core Score by 1 (max 5).
-- **On a Bare Success**: The character learns from the Hunt. Gain a new skill or ability as a Record.
-- **On a Failure**: The forest claims a piece of the character's soul. Decrease maximum Radiance by 1 permanently.
+- **When the outcome is Radiant**: The character grows stronger through struggle. Increase one Core Score by 1 (max 5).
+- **When the outcome is Bright**: The character learns from the Hunt. Gain a new skill or ability as a Record.
+- **When the outcome is Dire**: The forest claims a piece of the character's soul. Decrease maximum Faith by 1 permanently.
 
 ## Principles
 
@@ -463,16 +463,16 @@ Then, resolve the Action as follows:
 - Describe what they see, not what it means. Let players interpret and decide for themselves.
 - Do not hide crucial information behind Draws. Players cannot make smart decisions if they are blinded.
 
-**Failure Means Cost**
+**Failure Means Complication**
 
-- Failure imposes Cost whic should be rooted in the fiction. Time lost, harm suffered, trust broken, supplies spent, etc.
-- If no Cost make sense, let failure be the cost and move forward.
+- Failure imposes Complication which should be rooted in the fiction. Time lost, harm suffered, trust broken, supplies spent, etc.
+- If no Complication makes sense, let failure be the complication and move forward.
 - If something is impossible, explain why through the fiction.
 
 **Threat, Not Numbers**
 
 - Enemies and hazards do not need stats. Describe what they do, how dangerous they are, and let the fiction decide.
-- Minor threats deal 1 Vitae or Radiance. Serious threats deal 2. Dire threats deal 3 or more.
+- Minor threats deal 1 Vitae or Faith. Serious threats deal 2. Dire threats deal 3 or more.
 - Armored foes take more strikes. Ethereal foes might not fall to steel. Describe what happens, then let the players adapt.
 
 **Reward Ingenuity**
